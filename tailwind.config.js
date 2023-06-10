@@ -9,7 +9,7 @@ module.exports = {
         xl: "1280px",
       },
       maxWidth: {
-        size: "2rem",
+        size: "8rem",
       },
       colors: {
         base: "#f9f7f7",
