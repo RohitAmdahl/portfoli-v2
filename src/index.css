@@ -5,9 +5,3 @@
 body {
   @apply font-poppins;
 }
-li {
-  @apply p-4 text-sm;
-}
-.mobile-nav {
-  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
-}
