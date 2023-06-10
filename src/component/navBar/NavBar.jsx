@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Logo from "../../images/logo/logo.png";
-const NavBar = () => {
+const Header = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleToggle = () => setToggle(!toggle);
@@ -70,4 +70,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Header;
