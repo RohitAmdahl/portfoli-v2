@@ -7,8 +7,8 @@ const NavBar = () => {
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <div className="  py-4 max-w-4xl container mx-auto  w-full font-poppins ">
-      <header className=" flex justify-between items-center max-w-4xl shadow-lg p-5 m-3 rounded-full p-3">
+    <div className="  py-4 max-w-4xl container mx-auto  w-full font-poppins  ">
+      <header className=" bg-white flex justify-between items-center max-w-4xl shadow-lg p-5 m-3 rounded-full capitalize ">
         <a href="#home" className="logo text-2xl font-bold text-accent">
           <img src={Logo} alt="logo" className=" max-w-size" />
         </a>
@@ -16,19 +16,19 @@ const NavBar = () => {
         {/* Desktop Nav */}
         <nav className="hidden md:block  ">
           <ul className="flex justify-between px-4 ">
-            <li className="px-4 ">
+            <li className="px-4 hover:text-green hover:underline ">
               <a href="#home">Home</a>
             </li>
-            <li className="px-4 ">
+            <li className="px-4 hover:text-green hover:underline ">
               <a href="#projects">Projects</a>
             </li>
-            <li className="px-4 ">
+            <li className="px-4 hover:text-green hover:underline ">
               <a href="#skills">skills</a>
             </li>
-            <li className="px-4 ">
+            <li className="px-4 hover:text-green hover:underline ">
               <a href="#skills">Education</a>
             </li>
-            <li className="px-4 ">
+            <li className="px-4 hover:text-green hover:underline ">
               <a href="#contact">Contact</a>
             </li>
           </ul>
@@ -42,19 +42,19 @@ const NavBar = () => {
             }
           >
             <ul className="container max-w-lg mx-auto ">
-              <li className="py-4 flex justify-center items-center">
+              <li className="py-4 flex justify-center items-center hover:underline ">
                 <a href="#home">Home</a>
               </li>
-              <li className="py-4 flex justify-center items-center">
+              <li className="py-4 flex justify-center items-center hover:underline ">
                 <a href="#projects">Projects</a>
               </li>
-              <li className="py-4 flex justify-center items-center">
+              <li className="py-4 flex justify-center items-center hover:underline ">
                 <a href="#skills">Skills</a>
               </li>
-              <li className="py-4 flex justify-center items-center">
+              <li className="py-4 flex justify-center items-center hover:underline ">
                 <a href="#education">Eduction</a>
               </li>
-              <li className="py-4 flex justify-center items-center">
+              <li className="py-4 flex justify-center items-center hover:underline ">
                 <a href="#contact">Contact</a>
               </li>
             </ul>
