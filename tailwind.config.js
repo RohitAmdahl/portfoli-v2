@@ -8,6 +8,9 @@ module.exports = {
         lg: "1024px",
         xl: "1280px",
       },
+      backgroundImage: {
+        "hero-pattern": "url('/src/images/computer.png')",
+      },
       maxWidth: {
         size: "8rem",
       },

@@ -7,8 +7,8 @@ const NavBar = () => {
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <div className="  py-4 max-w-4xl container mx-auto  w-full font-poppins">
-      <header className=" flex justify-between items-center max-w-4xl shadow-lg m-3 rounded-full p-3">
+    <div className="  py-4 max-w-4xl container mx-auto  w-full font-poppins ">
+      <header className=" flex justify-between items-center max-w-4xl shadow-lg p-5 m-3 rounded-full p-3">
         <a href="#home" className="logo text-2xl font-bold text-accent">
           <img src={Logo} alt="logo" className=" max-w-size" />
         </a>
@@ -17,7 +17,7 @@ const NavBar = () => {
         <nav className="hidden md:block  ">
           <ul className="flex justify-between px-4 ">
             <li className="px-4 ">
-              <a href="#about">About</a>
+              <a href="#home">Home</a>
             </li>
             <li className="px-4 ">
               <a href="#projects">Projects</a>
@@ -26,7 +26,7 @@ const NavBar = () => {
               <a href="#skills">skills</a>
             </li>
             <li className="px-4 ">
-              <a href="#skills">skills</a>
+              <a href="#skills">Education</a>
             </li>
             <li className="px-4 ">
               <a href="#contact">Contact</a>
@@ -43,16 +43,19 @@ const NavBar = () => {
           >
             <ul className="container max-w-lg mx-auto ">
               <li className="py-4 flex justify-center items-center">
-                <a href="/#about">About</a>
+                <a href="#home">Home</a>
               </li>
               <li className="py-4 flex justify-center items-center">
-                <a href="/#projects">Projects</a>
+                <a href="#projects">Projects</a>
               </li>
               <li className="py-4 flex justify-center items-center">
-                <a href="/#blog">Blog</a>
+                <a href="#skills">Skills</a>
               </li>
               <li className="py-4 flex justify-center items-center">
-                <a href="/#contact">Contact</a>
+                <a href="#education">Eduction</a>
+              </li>
+              <li className="py-4 flex justify-center items-center">
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </nav>
