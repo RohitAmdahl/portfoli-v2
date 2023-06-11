@@ -19,11 +19,12 @@ const Header = () => {
             <li className="px-4 hover:text-green hover:underline ">
               <a href="#home">Home</a>
             </li>
-            <li className="px-4 hover:text-green hover:underline ">
-              <a href="#projects">Projects</a>
-            </li>
+
             <li className="px-4 hover:text-green hover:underline ">
               <a href="#skills">skills</a>
+            </li>
+            <li className="px-4 hover:text-green hover:underline ">
+              <a href="#projects">Projects</a>
             </li>
             <li className="px-4 hover:text-green hover:underline ">
               <a href="#skills">Education</a>
@@ -45,11 +46,12 @@ const Header = () => {
               <li className="py-4 flex justify-center items-center hover:underline ">
                 <a href="#home">Home</a>
               </li>
-              <li className="py-4 flex justify-center items-center hover:underline ">
-                <a href="#projects">Projects</a>
-              </li>
+
               <li className="py-4 flex justify-center items-center hover:underline ">
                 <a href="#skills">Skills</a>
+              </li>
+              <li className="py-4 flex justify-center items-center hover:underline ">
+                <a href="#projects">Projects</a>
               </li>
               <li className="py-4 flex justify-center items-center hover:underline ">
                 <a href="#education">Eduction</a>
