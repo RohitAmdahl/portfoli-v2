@@ -10,12 +10,14 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/images/computer.png')",
+        "theme-pattern": "url('/src/images/theme.png')",
       },
       maxWidth: {
         size: "8rem",
       },
       colors: {
-        base: "#fbf6ec",
+        base: "#f9f7f7",
+        test: "#fbf6ec",
         green: "#006D46",
         black: "#373737",
       },

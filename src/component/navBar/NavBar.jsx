@@ -15,18 +15,18 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:block  ">
-          <ul className="flex justify-between px-4 ">
-            <li className="px-4 hover:text-green hover:underline ">
+          <ul className="flex justify-between px-4  ">
+            <li className="px-4 text-green  hover:underline lg:border-r-2  md:border-r-2 ">
               <a href="#home">Home</a>
             </li>
 
-            <li className="px-4 hover:text-green hover:underline ">
+            <li className="px-4 hover:text-green hover:underline  lg:border-r-2 md:border-r-2">
               <a href="#skills">skills</a>
             </li>
-            <li className="px-4 hover:text-green hover:underline ">
+            <li className="px-4 hover:text-green hover:underline lg:border-r-2 md:border-r-2 ">
               <a href="#projects">Projects</a>
             </li>
-            <li className="px-4 hover:text-green hover:underline ">
+            <li className="px-4 hover:text-green hover:underline lg:border-r-2 md:border-r-2 ">
               <a href="#skills">Education</a>
             </li>
             <li className="px-4 hover:text-green hover:underline ">

@@ -1,7 +1,7 @@
 import React from "react";
-import Picture from "../../images/myself.png";
+// import Picture from "../../images/myself.png";
 import Logo from "../../images/logo/logo.png";
-
+import { AiOutlineArrowDown } from "react-icons/ai";
 import {
   FaFacebook,
   FaLinkedinIn,
@@ -11,7 +11,7 @@ import {
 const About = () => {
   return (
     <>
-      <div className=" fixed p-4 mt-64 lg:mt-56">
+      <div className=" fixed p-4 mt-80 lg:mt-56  ">
         <ul className=" flex justify-center flex-col gap-3 py-10 lg:py-5">
           <li className="py-2  cursor-pointer hover:animate-bounce ">
             <a href="https://www.facebook.com/" className="hover:text-blue-600">
@@ -37,7 +37,7 @@ const About = () => {
           <li className="py-2 cursor-pointer hover:animate-bounce ">
             <a
               href="https://www.instagram.com/"
-              className="hover:text-blue-600   "
+              className="hover:text-red-600   "
             >
               <FaInstagram size={20} />
             </a>
@@ -45,15 +45,14 @@ const About = () => {
         </ul>
         <div className=" h-20 w-0.5 bg-green  mx-auto"></div>
       </div>
-
-      <div className="">
+      <div className="px-8 lg:px-0">
         <div className="container mx-auto max-w-5xl font-poppins">
           <div
-            className=" md:flex md:flex-col md:flex-wrap md:max-w-lg md:mx-auto
-         p-4 lg:grid lg:grid-cols-2 lg:items-center lg:gap-3 lg:max-w-5xl"
+            className=" max-w-sm flex items-center justify-center  md:flex md:flex-col md:flex-wrap md:max-w-lg md:mx-auto
+         p-4 lg:max-w-lg"
           >
-            <div className="">
-              <h1 className="capitalize font-bold text-black text-4xl pt-4 lg:text-5xl font-serif">
+            <div>
+              <h1 className="capitalize font-bold text-black text-4xl pt-4 lg:text-5xl font-serif ">
                 rohit kumar amdahl
               </h1>
               <p className=" font-normal text-black font-serif">
@@ -69,16 +68,26 @@ const About = () => {
                 architects, I gained valuable insights into the world of design
                 and architecture.
               </p>
+
               <div className="w-full flex justify-end">
-                <img src={Logo} alt={Logo} className="pt-4" />
+                <img src={Logo} alt={Logo} className="pt-4 max-w-size" />
+              </div>
+              <div className=" border border-green m-5 px-2 py-2 max-w-xs ml-10 mt-10 hover:animate-none shadow-xl rounded-r-xl bg-emerald-600 text-white lg:animate-bounce lg:max-w-size lg:ml-0">
+                <a href="#projects" className=" mt-10 ">
+                  <span className="flex items-center justify-center gap-4 ">
+                    <AiOutlineArrowDown size={20} />
+                    My work
+                  </span>
+                </a>
               </div>
             </div>
-            <div className="flex justify-end items-center">
-              <img src={Picture} alt={Picture} className="p-2" />
-            </div>
+            {/* <div className="flex justify-end items-center">
+              <img src={Picture} alt={Picture} className="p-1 " />
+            </div> */}
           </div>
         </div>
       </div>
+      <div className=" "></div>
     </>
   );
 };
