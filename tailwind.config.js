@@ -15,7 +15,7 @@ module.exports = {
         size: "8rem",
       },
       colors: {
-        base: "#f9f7f7",
+        base: "#fbf6ec",
         green: "#006D46",
         black: "#373737",
       },
