@@ -49,7 +49,7 @@ const About = () => {
         </ul>
         <div className=" h-20 w-0.5 bg-green  mx-auto"></div>
       </div>
-      <div className="px-8 lg:px-0 ">
+      <div className="px-8 lg:px-0 mt-24 ">
         <div className="container mx-auto max-w-5xl font-poppins">
           <div
             className=" max-w-lg flex items-center justify-center  md:flex md:flex-col md:flex-wrap md:max-w-lg md:mx-auto
