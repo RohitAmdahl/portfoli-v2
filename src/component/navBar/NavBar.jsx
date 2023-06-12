@@ -7,20 +7,20 @@ const Header = () => {
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <div className=" mx-auto  flex items-center justify-center py-4 pt-14 font-poppins   ">
-      <header className=" container fixed z-50 m-3 mx-auto flex max-w-4xl items-center justify-between rounded-full bg-white p-5 capitalize shadow-lg ">
+    <div className=" mx-auto flex items-center justify-center py-4 pt-14 font-poppins">
+      <header className="container fixed z-50 m-3 mx-auto flex max-w-4xl items-center justify-between rounded-full bg-white p-5 capitalize shadow-lg">
         <a href="#home" className="logo text-accent text-2xl font-bold">
           <img src={Logo} alt="logo" className=" max-w-size" />
         </a>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:block  ">
-          <ul className="flex justify-between px-4  ">
-            <li className="px-4 text-green  hover:underline md:border-r-2  lg:border-r-2 ">
+        <nav className="hidden md:block ">
+          <ul className="flex justify-between px-4 ">
+            <li className="px-4 text-green hover:underline md:border-r-2 lg:border-r-2 ">
               <a href="#home">Home</a>
             </li>
 
-            <li className="px-4 hover:text-green hover:underline  md:border-r-2 lg:border-r-2">
+            <li className="px-4 hover:text-green hover:underline md:border-r-2 lg:border-r-2">
               <a href="#skills">skills</a>
             </li>
             <li className="px-4 hover:text-green hover:underline md:border-r-2 lg:border-r-2 ">

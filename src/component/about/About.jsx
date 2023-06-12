@@ -55,7 +55,7 @@ const About = () => {
             className=" max-w-lg flex items-center justify-center md:flex md:flex-col md:flex-wrap md:max-w-lg md:mx-auto
          p-4 lg:max-w-xl"
           >
-            <div>
+            <div className="flex flex-col justify-center">
               <h1 className="capitalize font-bold text-black text-4xl pt-4 lg:text-5xl font-serif ">
                 rohit kumar amdahl
               </h1>
