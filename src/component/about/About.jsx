@@ -1,14 +1,11 @@
 import React from "react";
-// import Picture from "../../images/myself.png";
 import Logo from "../../images/logo/logo.png";
-import { AiOutlineArrowDown } from "react-icons/ai";
-// import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CgDesignmodo } from "react-icons/cg";
 import { BsBookshelf } from "react-icons/bs";
 import { FaLaptopCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import SocialMedia from "../stickyIconBar/SocialMedia";
-
+import { motion } from "framer-motion";
 const About = () => {
   return (
     <>
@@ -44,9 +41,20 @@ const About = () => {
           </div>
         </div>
       </div>
-
-      <div className="md:grid-col-2 mx-auto grid max-w-md grid-cols-1 gap-4 p-16 md:max-w-lg lg:max-w-5xl lg:grid-cols-3">
-        <div className=" flex items-center justify-center rounded-xl bg-white p-4 shadow-lg ">
+      <motion.div
+        className="md:grid-col-2 mx-auto grid max-w-md grid-cols-1 gap-4 p-16 md:max-w-lg lg:max-w-5xl lg:grid-cols-3"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{
+          delay: 1.1,
+          duration: 1.1,
+          type: "spring",
+        }}
+      >
+        <motion.div
+          animate={{ rotate: -10, color: "#ff2994" }}
+          className=" flex items-center justify-center rounded-xl bg-white p-4 shadow-lg "
+        >
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
               <FaLaptopCode className="my-2 h-10 w-10 p-1 text-emerald-600" />
@@ -57,7 +65,7 @@ const About = () => {
               web.
             </p>
           </div>
-        </div>
+        </motion.div>
         <div className=" flex items-center justify-center rounded-xl bg-white p-4 shadow-lg ">
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
@@ -76,15 +84,20 @@ const About = () => {
             <p>I have a sincere passion for learning new thing.</p>
           </div>
         </div>
-      </div>
+      </motion.div>
       <div className=" container mx-auto grid max-w-sm grid-cols-1 p-3">
-        <div className="container  mx-auto max-w-size items-center rounded-full border-2 border-gray-400 bg-white py-4 text-center text-lg text-green shadow-md  md:max-w-xs lg:max-w-xs ">
+        <motion.div
+          className="container  mx-auto max-w-size items-center rounded-full border-2 border-gray-400 bg-white py-4 text-center text-lg text-green shadow-md  md:max-w-xs lg:max-w-xs "
+          initial={{ x: "-100vw" }}
+          animate={{ x: 0 }}
+          transition={{ delay: 0.2, duration: 2 }}
+        >
           <Link to="/projects" className=" mt-10 ">
             <span className="flex animate-bounce items-center justify-center gap-2 font-bold capitalize hover:animate-none lg:gap-4 ">
               my Projects
             </span>
           </Link>
-        </div>
+        </motion.div>
       </div>
     </>
   );
