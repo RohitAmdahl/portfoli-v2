@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Logo from "../../images/logo/logo.png";
+import { Link } from "react-router-dom";
+
 const Header = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -9,26 +11,26 @@ const Header = () => {
   return (
     <div className=" mx-auto flex items-center justify-center py-4 pt-14 font-poppins">
       <header className="container fixed z-50 m-3 mx-auto flex max-w-4xl items-center justify-between rounded-full bg-white p-5 capitalize shadow-lg">
-        <a href="#home" className="logo text-accent text-2xl font-bold">
-          <img src={Logo} alt="logo" className=" max-w-size" />
-        </a>
+        <Link to="/" className="logo text-accent text-2xl font-bold">
+          <img src={Logo} alt="logo" className="max-w-size" />
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:block ">
           <ul className="flex justify-between px-4 ">
             <li className="px-4 text-green hover:underline md:border-r-2 lg:border-r-2 ">
-              <a href="#home">Home</a>
+              <Link to="/">Home</Link>
             </li>
 
             <li className="px-4 hover:text-green hover:underline md:border-r-2 lg:border-r-2">
-              <a href="#skills">skills</a>
+              <Link to="/skills">skills</Link>
             </li>
             <li className="px-4 hover:text-green hover:underline md:border-r-2 lg:border-r-2 ">
-              <a href="#projects">Projects</a>
+              <Link to="/projects">Project</Link>
             </li>
 
             <li className="px-4 hover:text-green hover:underline ">
-              <a href="#contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
@@ -42,17 +44,17 @@ const Header = () => {
           >
             <ul className="container mx-auto max-w-lg ">
               <li className="flex items-center justify-center py-4 hover:underline ">
-                <a href="#home">Home</a>
+                <Link to="/">Home</Link>
               </li>
 
               <li className="flex items-center justify-center py-4 hover:underline ">
-                <a href="#skills">Skills</a>
+                <Link to="/skills">skills</Link>
               </li>
               <li className="flex items-center justify-center py-4 hover:underline ">
-                <a href="#projects">Projects</a>
+                <Link to="/projects">Project</Link>
               </li>
               <li className="flex items-center justify-center py-4 hover:underline ">
-                <a href="#contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </nav>
