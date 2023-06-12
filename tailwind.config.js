@@ -13,7 +13,7 @@ module.exports = {
         "theme-pattern": "url('/src/images/theme.png')",
       },
       maxWidth: {
-        size: "8rem",
+        size: "10rem",
       },
       colors: {
         base: "#f9f7f7",

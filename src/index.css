@@ -7,7 +7,7 @@ body {
 }
 
 .mobile-nav {
-  @apply block md:hidden fixed top-28 py-2 w-full h-full rounded-r-2xl text-2xl text-white bg-green duration-500;
+  @apply block md:hidden fixed top-28 py-2 w-full h-full rounded-r-2xl text-2xl text-white bg-emerald-500  duration-500;
 }
 /* * {
   outline: 2px solid red;

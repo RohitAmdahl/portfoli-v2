@@ -80,11 +80,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-sm px-4 mx-auto container ">
-        {/* <h2 className="text-2xl max-w-md text-green capitalize">
-          You should Know
-        </h2> */}
-      </div>
+
       <div className="grid grid-cols-1 p-16 gap-4 max-w-md mx-auto md:grid-col-2 lg:grid-cols-3 md:max-w-lg lg:max-w-5xl">
         <div className=" shadow-lg flex justify-center items-center bg-white p-4 rounded-xl ">
           <div className=" font-normal ">
@@ -117,14 +113,11 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className=" grid grid-cols-1 max-w-sm mx-auto container">
-        <div className="max-w-size mx-auto bg-emerald-500 text-white container text-center items-center py-4 rounded-full shadow-lg text-lg  lg:max-w-xs md:max-w-xs ">
+      <div className=" grid grid-cols-1 max-w-sm mx-auto container p-3">
+        <div className="max-w-size  mx-auto bg-white text-green container text-center items-center py-4 rounded-full shadow-md border-2 border-gray-400 text-lg  lg:max-w-xs md:max-w-xs ">
           <a href="#projects" className=" mt-10 ">
-            <span className="flex items-center justify-center gap-4 font-bold ">
-              <AiOutlineArrowDown
-                size={25}
-                className=" animate-bounce hover:animate-none "
-              />
+            <span className="flex items-center justify-center  gap-2 font-bold animate-bounce hover:animate-none lg:gap-4  ">
+              <AiOutlineArrowDown size={25} className=" " />
               My work
             </span>
           </a>
