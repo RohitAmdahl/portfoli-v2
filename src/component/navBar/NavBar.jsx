@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <div className=" py-4  font-poppins mx-auto flex justify-center items-center pt-14  ">
-      <header className=" fixed max-w-4xl mx-auto container bg-white flex justify-between items-center shadow-lg p-5 m-3 rounded-full capitalize ">
+      <header className=" z-50 fixed max-w-4xl mx-auto container bg-white flex justify-between items-center shadow-lg p-5 m-3 rounded-full capitalize ">
         <a href="#home" className="logo text-2xl font-bold text-accent">
           <img src={Logo} alt="logo" className=" max-w-size" />
         </a>
