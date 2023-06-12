@@ -9,8 +9,8 @@ const Header = () => {
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <div className=" mx-auto flex items-center justify-center py-4 pt-14 font-poppins">
-      <header className="container fixed z-50 m-3 mx-auto flex max-w-4xl items-center justify-between rounded-full bg-white p-5 capitalize shadow-lg">
+    <div className=" mx-auto flex items-center justify-center py-4  font-poppins">
+      <header className="container  m-3 mx-auto flex max-w-4xl items-center justify-between rounded-full bg-white p-5 capitalize shadow-lg">
         <Link to="/" className="logo text-accent text-2xl font-bold">
           <img src={Logo} alt="logo" className="max-w-size" />
         </Link>

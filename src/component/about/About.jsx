@@ -46,8 +46,8 @@ const About = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{
-          delay: 1.1,
-          duration: 1.1,
+          delay: 0.8,
+          duration: 0.8,
           type: "spring",
         }}
       >
