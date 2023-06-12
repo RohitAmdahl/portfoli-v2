@@ -11,7 +11,7 @@ import {
 const About = () => {
   return (
     <>
-      <div className=" fixed p-4 mt-80 lg:mt-56  ">
+      <div className=" fixed p-4 mt-80 lg:mt-56 text-black  ">
         <ul className=" flex justify-center flex-col gap-3 py-10 lg:py-5">
           <li className="py-2  cursor-pointer hover:animate-bounce ">
             <a href="https://www.facebook.com/" className="hover:text-blue-600">
@@ -45,24 +45,24 @@ const About = () => {
         </ul>
         <div className=" h-20 w-0.5 bg-green  mx-auto"></div>
       </div>
-      <div className="px-8 lg:px-0">
+      <div className="px-8 lg:px-0 ">
         <div className="container mx-auto max-w-5xl font-poppins">
           <div
-            className=" max-w-sm flex items-center justify-center  md:flex md:flex-col md:flex-wrap md:max-w-lg md:mx-auto
-         p-4 lg:max-w-lg"
+            className=" max-w-lg flex items-center justify-center  md:flex md:flex-col md:flex-wrap md:max-w-lg md:mx-auto
+         p-4 lg:max-w-xl"
           >
             <div>
               <h1 className="capitalize font-bold text-black text-4xl pt-4 lg:text-5xl font-serif ">
                 rohit kumar amdahl
               </h1>
-              <p className=" font-normal text-black font-serif">
+              <p className=" font-normal text-black font-serif text-lg">
                 Designer and frontend developer
               </p>
               <p className="py-4 text-md font-normal font-sans">
                 Hello there! My name is Rohit, and I am a passionate front-end
                 developer with a keen eye for design.
               </p>
-              <p className="py-2font-normal font-sans">
+              <p className="py-2font-normal font-sans lg:tracking-wide md:tracking-wide  box-content w-80 lg:w-full md-w-full">
                 With a solid background in design, I bring a unique perspective
                 to my development work. Having previously collaborated with
                 architects, I gained valuable insights into the world of design
