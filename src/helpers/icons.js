@@ -9,8 +9,9 @@ import Img8 from "../images/icons/figma.png";
 import Img9 from "../images/icons/bi_git.png";
 import Img10 from "../images/icons/wordpress.png";
 import Img11 from "../images/icons/skill-icons_supabase-dark.png";
-import Img12 from "../images/icons/skill-icons/tailwind.png";
+import Img12 from "../images/icons/tailwindcss.png";
 import Img13 from "../images/icons/devicon_materialui.png";
+import Img14 from "../images/icons/adobe-xd.png";
 
 const skillIcons = [
   {
@@ -77,6 +78,11 @@ const skillIcons = [
     id: 13,
     name: "material ui",
     image: Img13,
+  },
+  {
+    id: 14,
+    name: "adobe-xd",
+    image: Img14,
   },
 ];
 
