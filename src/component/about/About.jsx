@@ -2,11 +2,15 @@ import React from "react";
 // import Picture from "../../images/myself.png";
 import Logo from "../../images/logo/logo.png";
 import { AiOutlineArrowDown } from "react-icons/ai";
+// import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { CgDesignmodo } from "react-icons/cg";
+import { BsBookshelf } from "react-icons/bs";
 import {
   FaFacebook,
   FaLinkedinIn,
   FaGithub,
   FaInstagram,
+  FaLaptopCode,
 } from "react-icons/fa";
 const About = () => {
   return (
@@ -62,7 +66,7 @@ const About = () => {
                 Hello there! My name is Rohit, and I am a passionate front-end
                 developer with a keen eye for design.
               </p>
-              <p className="py-2font-normal font-sans lg:tracking-wide md:tracking-wide  box-content w-80 lg:w-full md-w-full">
+              <p className="py-2 font-normal font-sans lg:tracking-wide md:tracking-wide  lg:w-full md-w-full">
                 With a solid background in design, I bring a unique perspective
                 to my development work. Having previously collaborated with
                 architects, I gained valuable insights into the world of design
@@ -72,22 +76,60 @@ const About = () => {
               <div className="w-full flex justify-end">
                 <img src={Logo} alt={Logo} className="pt-4 max-w-size" />
               </div>
-              <div className=" border border-green m-5 px-2 py-2 max-w-xs ml-10 mt-10 hover:animate-none shadow-xl rounded-r-xl bg-emerald-600 text-white lg:animate-bounce lg:max-w-size lg:ml-0">
-                <a href="#projects" className=" mt-10 ">
-                  <span className="flex items-center justify-center gap-4 ">
-                    <AiOutlineArrowDown size={20} />
-                    My work
-                  </span>
-                </a>
-              </div>
             </div>
-            {/* <div className="flex justify-end items-center">
-              <img src={Picture} alt={Picture} className="p-1 " />
-            </div> */}
           </div>
         </div>
       </div>
-      <div className=" "></div>
+      <div className="max-w-sm px-4 mx-auto container ">
+        {/* <h2 className="text-2xl max-w-md text-green capitalize">
+          You should Know
+        </h2> */}
+      </div>
+      <div className="grid grid-cols-1 p-16 gap-4 max-w-md mx-auto md:grid-col-2 lg:grid-cols-3 md:max-w-lg lg:max-w-5xl">
+        <div className=" shadow-lg flex justify-center items-center bg-white p-4 rounded-xl ">
+          <div className=" font-normal ">
+            <div className="flex justify-center items-center ">
+              <FaLaptopCode className="w-10 h-10 p-1 my-2 text-emerald-600" />
+              <span className="font-bold text-lg">Developer</span>
+            </div>
+            <p>
+              I delight in coding from scratch and bringing ideas to life on the
+              web.
+            </p>
+          </div>
+        </div>
+        <div className=" shadow-lg flex justify-center items-center bg-white p-4 rounded-xl ">
+          <div className=" font-normal ">
+            <div className="flex justify-center items-center ">
+              <CgDesignmodo className="w-10 h-10 p-1 my-2 text-emerald-600" />
+              <span className="font-bold text-lg">Designer</span>
+            </div>
+            <p>Clean design patterns, and thoughtful interactions.</p>
+          </div>
+        </div>
+        <div className="shadow-lg flex justify-center items-center bg-white p-4 rounded-xl">
+          <div className=" font-normal ">
+            <div className="flex justify-center items-center ">
+              <BsBookshelf className="w-10 h-10 p-1 my-2 text-emerald-600 " />
+              <span className="font-bold text-lg">Learning</span>
+            </div>
+            <p>I have a sincere passion for learning new thing.</p>
+          </div>
+        </div>
+      </div>
+      <div className=" grid grid-cols-1 max-w-sm mx-auto container">
+        <div className="max-w-size mx-auto bg-emerald-500 text-white container text-center items-center py-4 rounded-full shadow-lg text-lg  lg:max-w-xs md:max-w-xs ">
+          <a href="#projects" className=" mt-10 ">
+            <span className="flex items-center justify-center gap-4 font-bold ">
+              <AiOutlineArrowDown
+                size={25}
+                className=" animate-bounce hover:animate-none "
+              />
+              My work
+            </span>
+          </a>
+        </div>
+      </div>
     </>
   );
 };
