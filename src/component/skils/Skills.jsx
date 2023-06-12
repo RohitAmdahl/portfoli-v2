@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="max-w-lg mx-auto container text-center pt-10"
+      className="max-w-lg mx-auto container text-center pt-10 pb-10"
     >
       <div className="text-5xl py-4">
         <h2 className="font-thin p-3">My Skills</h2>
