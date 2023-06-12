@@ -15,7 +15,7 @@ import {
 const About = () => {
   return (
     <>
-      <div className=" fixed p-4 mt-80 lg:mt-56 text-black  ">
+      <div className="fixed p-4 mt-80 pt-14 lg:mt-56 text-black  ">
         <ul className=" flex justify-center flex-col gap-3 py-10 lg:py-5">
           <li className="py-2  cursor-pointer hover:animate-bounce ">
             <a href="https://www.facebook.com/" className="hover:text-blue-600">
@@ -49,10 +49,10 @@ const About = () => {
         </ul>
         <div className=" h-20 w-0.5 bg-green  mx-auto"></div>
       </div>
-      <div className="px-8 lg:px-0 mt-24 ">
+      <div className="px-8 lg:px-0 mt-10 ">
         <div className="container mx-auto max-w-5xl font-poppins">
           <div
-            className=" max-w-lg flex items-center justify-center  md:flex md:flex-col md:flex-wrap md:max-w-lg md:mx-auto
+            className=" max-w-lg flex items-center justify-center md:flex md:flex-col md:flex-wrap md:max-w-lg md:mx-auto
          p-4 lg:max-w-xl"
           >
             <div>
