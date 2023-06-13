@@ -9,7 +9,7 @@ const SocialMedia = () => {
   return (
     <div>
       <div className="fixed mt-24 p-4 pt-14 text-black lg:mt-10  ">
-        <ul className=" flex flex-col justify-center gap-3 py-10 lg:py-5">
+        <ul className=" flex cursor-pointer flex-col justify-center gap-3 py-10 lg:py-5">
           <li className="cursor-pointer  py-2 hover:animate-bounce ">
             <a href="https://www.facebook.com/" className="hover:text-blue-600">
               <FaFacebook size={20} />
@@ -34,7 +34,7 @@ const SocialMedia = () => {
           <li className="cursor-pointer py-2 hover:animate-bounce ">
             <a
               href="https://www.instagram.com/"
-              className="hover:text-red-600   "
+              className=" hover:text-red-600  "
             >
               <FaInstagram size={20} />
             </a>
