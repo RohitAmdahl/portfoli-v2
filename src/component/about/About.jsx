@@ -17,7 +17,7 @@ const About = () => {
          md:flex-wrap lg:max-w-xl"
           >
             <div className="flex flex-col justify-center">
-              <h1 className="pt-4 font-serif text-4xl font-bold capitalize text-black lg:text-5xl ">
+              <h1 className="pt-4 font-serif text-4xl  font-thin capitalize text-black lg:text-5xl ">
                 rohit kumar amdahl
               </h1>
               <p className=" font-serif text-lg font-normal text-black">
