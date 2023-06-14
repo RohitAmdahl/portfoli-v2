@@ -1,6 +1,6 @@
 import React from "react";
 
-const BarsLevel = () => {
+const Education = () => {
   return (
     <div className="container mx-auto max-w-lg px-10 pb-3 pt-3">
       <div className="container mx-auto flex max-w-lg items-center gap-20 py-14 lg:flex-row">
@@ -61,4 +61,4 @@ const BarsLevel = () => {
   );
 };
 
-export default BarsLevel;
+export default Education;

@@ -12,6 +12,8 @@ import Img11 from "../images/icons/skill-icons_supabase-dark.png";
 import Img12 from "../images/icons/tailwindcss.png";
 import Img13 from "../images/icons/devicon_materialui.png";
 import Img14 from "../images/icons/adobe-xd.png";
+import Img15 from "../images/icons/github.png";
+import Img16 from "../images/icons/firebase.png";
 
 const skillIcons = [
   {
@@ -83,6 +85,16 @@ const skillIcons = [
     id: 14,
     name: "adobe-xd",
     image: Img14,
+  },
+  {
+    id: 15,
+    name: "github",
+    image: Img15,
+  },
+  {
+    id: 16,
+    name: "firebase",
+    image: Img16,
   },
 ];
 
