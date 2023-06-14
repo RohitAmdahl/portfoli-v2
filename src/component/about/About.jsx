@@ -17,7 +17,7 @@ const About = () => {
          md:flex-wrap lg:max-w-xl"
           >
             <div className="flex flex-col justify-center">
-              <h1 className="pt-4 font-serif text-4xl  font-thin capitalize text-black lg:text-5xl ">
+              <h1 className="pt-4 font-serif text-4xl font-bold capitalize text-black lg:text-5xl ">
                 rohit kumar amdahl
               </h1>
               <p className=" font-serif text-lg font-normal text-black">
@@ -52,7 +52,7 @@ const About = () => {
         }}
       >
         <motion.div
-          animate={{ rotate: -10, color: "#ff2994" }}
+          animate={{ rotate: -10, color: "#94004a" }}
           className=" flex items-center justify-center rounded-xl bg-white p-4 shadow-lg "
         >
           <div className=" font-normal ">

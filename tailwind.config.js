@@ -22,6 +22,7 @@ module.exports = {
         test: "#fbf6ec",
         green: "#006D46",
         black: "#373737",
+        pink: "#ff2994",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
