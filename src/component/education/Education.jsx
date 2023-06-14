@@ -9,7 +9,7 @@ const Education = () => {
       <motion.div
         className="m-3 mx-auto flex max-w-2xl justify-around rounded-3xl bg-white p-4 pt-10 shadow-lg"
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1, color: "#ff2994" }}
+        animate={{ opacity: 1, color: "#a20553" }}
         transition={{
           delay: 0.8,
           duration: 0.8,
@@ -31,7 +31,7 @@ const Education = () => {
         </div>
         <div className=" h-14 w-0.5  bg-green"></div>
         <div>
-          <span className="px-2 font-bold capitalize">2019</span>
+          <span className="px-2  capitalize">2019</span>
           <p className="px-2 font-bold capitalize ">
             Open BIM-IFC Archicad videregående
           </p>
@@ -43,7 +43,7 @@ const Education = () => {
         </div>
         <div className="  h-14 w-0.5  bg-green"></div>
         <div className=" ">
-          <span className="font-bold capitalize">2017</span>
+          <span className=" capitalize">2017</span>
           <p className="font-bold capitalize ">Autocad and Revit</p>
         </div>
       </div>
@@ -53,7 +53,7 @@ const Education = () => {
         </div>
         <div className="  h-14 w-0.5  bg-green"></div>
         <div className=" ">
-          <span className="px-2 font-bold capitalize">2009 - 2013</span>
+          <span className="px-2  capitalize">2009 - 2013</span>
           <p className="px-2 font-bold capitalize ">Bachelor in design</p>
         </div>
       </div>
