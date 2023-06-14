@@ -33,10 +33,6 @@ const About = () => {
                 architects, I gained valuable insights into the world of design
                 and architecture.
               </p>
-
-              <div className="flex w-full justify-end">
-                <img src={Logo} alt={Logo} className="max-w-size pt-4" />
-              </div>
             </div>
           </div>
         </div>
@@ -53,7 +49,7 @@ const About = () => {
       >
         <motion.div
           animate={{ rotate: -10, color: "#94004a" }}
-          className=" flex items-center justify-center rounded-xl bg-white p-4 shadow-lg "
+          className=" flex items-center justify-center rounded-xl bg-white p-4  "
         >
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
@@ -66,7 +62,7 @@ const About = () => {
             </p>
           </div>
         </motion.div>
-        <div className=" flex items-center justify-center rounded-xl bg-white p-4 shadow-lg ">
+        <div className=" flex items-center justify-center rounded-xl bg-white p-4  ">
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
               <CgDesignmodo className="my-2 h-10 w-10 p-1 text-emerald-600" />
@@ -75,7 +71,7 @@ const About = () => {
             <p>Clean design patterns, and thoughtful interactions.</p>
           </div>
         </div>
-        <div className="flex items-center justify-center rounded-xl bg-white p-4 shadow-lg">
+        <div className="flex items-center justify-center rounded-xl bg-white p-4 ">
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
               <BsBookshelf className="my-2 h-10 w-10 p-1 text-emerald-600 " />
@@ -85,6 +81,9 @@ const About = () => {
           </div>
         </div>
       </motion.div>
+      <div className="container mx-auto flex max-w-lg  justify-end">
+        <img src={Logo} alt={Logo} className="max-w-size pb-10" />
+      </div>
       <div className=" container mx-auto grid max-w-sm grid-cols-1 p-3">
         <motion.div
           className="container  mx-auto max-w-size items-center rounded-full border-2 border-gray-400 bg-white py-4 text-center text-lg text-green shadow-md  md:max-w-xs lg:max-w-xs "
