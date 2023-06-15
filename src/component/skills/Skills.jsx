@@ -4,12 +4,12 @@ import SkillsCards from "./SkillsCards";
 import { motion } from "framer-motion";
 const MySkills = () => {
   return (
-    <section className="container mx-auto mb-4 max-w-lg pb-8 pt-1 text-center font-serif lg:pb-8 lg:pt-4">
+    <section className="container mx-auto mb-4 max-w-xl items-center pb-8 text-center font-serif md:max-w-2xl lg:max-w-4xl lg:pb-8 lg:pt-4">
       <div className="pb-2 text-5xl lg:pb-6">
-        <h1 className="p-1 font-thin">My Skills</h1>
+        <h1 className="pb-5 pt-6 font-thin">My Skills</h1>
       </div>
       <motion.div
-        className="grid grid-cols-2 gap-3 p-12 md:grid-cols-3 lg:grid-cols-4 lg:p-0 "
+        className=" container mx-auto grid grid-cols-2 items-center gap-3 p-12 md:grid-cols-3 lg:grid-cols-4 lg:gap-4 lg:p-3 "
         initial={{ x: "100vw" }}
         animate={{ x: 0 }}
         transition={{ delay: 0.5, type: "spring", stiffness: 120 }}
