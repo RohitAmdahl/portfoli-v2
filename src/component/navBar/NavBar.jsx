@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Logo from "../../images/logo/logo.png";
 import { Link } from "react-router-dom";
+import { RxMoon } from "react-icons/rx";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -34,7 +35,11 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-
+        <div>
+          <div className="z-30 cursor-pointer rounded-full border-4 border-amber-400 p-2">
+            <RxMoon />
+          </div>
+        </div>
         {/* Mobile Nav */}
         <div className="flex items-center justify-center">
           <nav

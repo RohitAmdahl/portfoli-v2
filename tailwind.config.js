@@ -21,7 +21,7 @@ module.exports = {
         base: "#f9f7f7",
         test: "#fbf6ec",
         green: "#006D46",
-        black: "#373737",
+        black: "#473747",
         pink: "#ff2994",
       },
       fontFamily: {

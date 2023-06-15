@@ -9,7 +9,7 @@ const MySkills = () => {
         <h1 className="pb-5 pt-6 font-thin">My Skills</h1>
       </div>
       <motion.div
-        className=" container mx-auto grid grid-cols-2 items-center gap-3 p-12 md:grid-cols-3 lg:grid-cols-4 lg:gap-4 lg:p-3 "
+        className=" container mx-auto grid grid-cols-2 items-center gap-3 p-12 md:grid-cols-3 md:gap-5 lg:grid-cols-4 lg:gap-6 lg:p-3 "
         initial={{ x: "100vw" }}
         animate={{ x: 0 }}
         transition={{ delay: 0.5, type: "spring", stiffness: 120 }}

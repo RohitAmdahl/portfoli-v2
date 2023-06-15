@@ -10,13 +10,13 @@ const About = () => {
   return (
     <>
       <SocialMedia />
-      <div className="mt-10 px-8 lg:px-0 ">
-        <div className="container mx-auto max-w-5xl font-poppins">
+      <div className="mt-10 items-center px-10 lg:px-0 ">
+        <div className="container mx-auto flex max-w-5xl items-center justify-center">
           <div
             className=" flex max-w-lg items-center justify-center p-4 md:mx-auto md:flex md:max-w-lg md:flex-col
          md:flex-wrap lg:max-w-xl"
           >
-            <div className="flex flex-col justify-center">
+            <div className="flex flex-col  justify-center">
               <h1 className="pt-4 font-serif text-4xl font-bold capitalize text-black lg:text-5xl ">
                 rohit kumar amdahl
               </h1>
@@ -38,7 +38,7 @@ const About = () => {
         </div>
       </div>
       <motion.div
-        className="md:grid-col-2 mx-auto grid max-w-md grid-cols-1 gap-4 p-16 md:max-w-lg lg:max-w-5xl lg:grid-cols-3"
+        className="md:grid-col-2 mx-auto grid max-w-xl grid-cols-1 gap-4 p-16 md:max-w-xl lg:max-w-5xl lg:grid-cols-3"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{
