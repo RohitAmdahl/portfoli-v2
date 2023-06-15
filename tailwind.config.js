@@ -23,6 +23,7 @@ module.exports = {
         green: "#006D46",
         black: "#473747",
         pink: "#ff2994",
+        skillBase: "#EEF6F6",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],

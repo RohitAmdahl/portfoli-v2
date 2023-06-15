@@ -1,65 +1,73 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { TbSchool } from "react-icons/tb";
+import { FaSchool } from "react-icons/fa";
+// import { BsPersonWorkspace } from "react-icons/bs";
+
 const Education = () => {
   return (
     <>
       <div className="pb-2 font-serif text-5xl lg:pb-6">
-        <h2 className="p-1 text-center font-thin">Education</h2>
+        <h2 className="mb-10 p-1 text-center font-thin">Education</h2>
       </div>
-      <div className="px-10">
-        <motion.div
-          className="m-3 mx-auto flex max-w-xl justify-around rounded-full bg-white p-4 pt-10 shadow-lg lg:max-w-2xl"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{
-            delay: 2.1,
-            duration: 0.5,
-            type: "spring",
-          }}
-        >
-          <div className=" items-center ">
-            <span className="font-bold capitalize">2021 okt - 2023 okt</span>
-            <p className="text-xl font-bold capitalize ">Frontend utvikling</p>
-          </div>
-          <div className=" h-24  w-0.5 bg-green"></div>
-          <div className="text-lg">
-            <p className="px-2 text-xl">
-              Noroff school of technology and digital media
-            </p>
-            <p className="px-2 text-xl">Noroff Oslo</p>
-          </div>
-        </motion.div>
-        <div className="m-3 mx-auto flex max-w-lg justify-around rounded-full bg-white p-4 pt-10  lg:max-w-2xl ">
-          <div className="text-lg">
-            <p className="px-2">Graphisoft Norge </p>
-          </div>
-          <div className=" h-14 w-0.5  bg-green"></div>
-          <div>
-            <span className="px-2  capitalize">2019</span>
-            <p className="px-2 font-bold capitalize ">
-              Open BIM-IFC Archicad videregående
-            </p>
-          </div>
-        </div>
-        <div className="m-3 mx-auto flex max-w-lg justify-around rounded-full bg-white p-4 pt-10   lg:max-w-2xl ">
-          <div className="text-lg">
-            <p>Cad Consult AS</p>
-          </div>
-          <div className="  h-14 w-0.5  bg-green"></div>
-          <div className=" ">
-            <span className=" capitalize">2017</span>
-            <p className="font-bold capitalize ">Autocad and Revit</p>
-          </div>
-        </div>
-        <div className="m-3 mx-auto flex max-w-lg justify-around rounded-full bg-white p-4 pt-10  lg:max-w-2xl ">
-          <div className="text-lg">
-            <p>National institute of fashion technology </p>
-          </div>
-          <div className="  h-14 w-0.5  bg-green"></div>
-          <div>
-            <span className="px-2  capitalize">2009 - 2013</span>
-            <p className="px-2 font-bold capitalize ">Bachelor in design</p>
-          </div>
+      <div className="ml-12 px-5 py-5 md:m-0 lg:m-0 ">
+        <div className="flex items-center justify-center ">
+          <ol className=" container relative mx-auto max-w-xl border-l border-emerald-400  text-gray-500 dark:border-gray-700 dark:text-gray-400">
+            <motion.li
+              className="mb-10 ml-6"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                delay: 1.2,
+                type: "string",
+                duration: 0.9,
+                stiffness: 120,
+              }}
+            >
+              <span className=" bg-green-200 dark:bg-green-900 absolute  -left-4 flex h-8 w-8 items-center justify-center rounded-full ring-4  ring-red-100  dark:ring-gray-900">
+                <TbSchool size={20} />
+              </span>
+              <span className="text-xl font-bold capitalize text-black">
+                2021 okt - 2023 okt
+              </span>
+              <p className="text-xl font-bold capitalize text-black ">
+                Frontend utvikling
+              </p>
+              <p className=" text-xl font-bold text-black ">
+                Noroff school of technology and digital media
+              </p>
+            </motion.li>
+            <li className="mb-10 ml-6">
+              <span className=" bg-green-200 dark:bg-green-900 absolute  -left-4 flex h-8 w-8 items-center justify-center rounded-full ring-4  ring-red-100  dark:ring-gray-900">
+                <TbSchool size={20} />
+              </span>
+              <span className="font-bold capitalize">2009 - 2013</span>
+              <p className="text-xl font-bold capitalize ">
+                Bachelor in design
+              </p>
+              <p className=" text-xl">
+                National institute of fashion technology
+              </p>
+            </li>
+            <li className="mb-10 ml-6">
+              <span className=" bg-green-200 dark:bg-green-900 absolute  -left-4 flex h-8 w-8 items-center justify-center rounded-full ring-4  ring-red-100  dark:ring-gray-900">
+                <FaSchool size={20} />
+              </span>
+              <span className="font-bold capitalize">Course in 2019</span>
+              <p className="text-xl font-bold capitalize ">
+                Open BIM-IFC Archicad videregående
+              </p>
+              <p className=" text-xl">Graphisoft Norge</p>
+            </li>
+            <li className="mb-10 ml-6">
+              <span className=" bg-green-200 dark:bg-green-900 absolute  -left-4 flex h-8 w-8 items-center justify-center rounded-full ring-4  ring-red-100  dark:ring-gray-900">
+                <FaSchool size={20} />
+              </span>
+              <span className="font-bold capitalize">Course in 2017</span>
+              <p className="text-xl font-bold capitalize ">Autocad and Revit</p>
+              <p className=" text-xl">Cad Consult AS</p>
+            </li>
+          </ol>
         </div>
       </div>
     </>

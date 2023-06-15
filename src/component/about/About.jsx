@@ -3,7 +3,6 @@ import Logo from "../../images/logo/logo.png";
 import { CgDesignmodo } from "react-icons/cg";
 import { BsBookshelf } from "react-icons/bs";
 import { FaLaptopCode } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import SocialMedia from "../stickyIconBar/SocialMedia";
 import { motion } from "framer-motion";
 const About = () => {
@@ -84,7 +83,7 @@ const About = () => {
       <div className="container mx-auto flex max-w-lg  justify-end">
         <img src={Logo} alt={Logo} className="max-w-size pb-10" />
       </div>
-      <div className=" container mx-auto grid max-w-sm grid-cols-1 p-3">
+      {/* <div className=" container mx-auto grid max-w-sm grid-cols-1 p-3">
         <motion.div
           className="container  mx-auto max-w-size items-center rounded-full border-2 border-gray-400 bg-white py-4 text-center text-lg text-green shadow-md  md:max-w-xs lg:max-w-xs "
           initial={{ x: "-100vw" }}
@@ -97,7 +96,7 @@ const About = () => {
             </span>
           </Link>
         </motion.div>
-      </div>
+      </div> */}
     </>
   );
 };

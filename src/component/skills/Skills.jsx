@@ -4,7 +4,7 @@ import SkillsCards from "./SkillsCards";
 import { motion } from "framer-motion";
 const MySkills = () => {
   return (
-    <section className="container mx-auto mb-4 max-w-xl items-center pb-8 text-center font-serif md:max-w-2xl lg:max-w-4xl lg:pb-8 lg:pt-4">
+    <section className="container mx-auto mb-4 max-w-xl items-center pb-8 text-center font-serif md:max-w-2xl lg:max-w-4xl lg:pb-8  ">
       <div className="pb-2 text-5xl lg:pb-6">
         <h1 className="pb-5 pt-6 font-thin">My Skills</h1>
       </div>
