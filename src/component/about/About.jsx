@@ -48,7 +48,7 @@ const About = () => {
       >
         <motion.div
           animate={{ rotate: -10, color: "#94004a" }}
-          className=" flex items-center justify-center rounded-xl bg-white p-4  "
+          className=" flex items-center justify-center rounded-xl bg-white p-4 shadow-lg  "
         >
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
@@ -61,7 +61,7 @@ const About = () => {
             </p>
           </div>
         </motion.div>
-        <div className=" flex items-center justify-center rounded-xl bg-white p-4  ">
+        <div className=" flex items-center justify-center rounded-xl bg-white  p-4 shadow-lg  ">
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
               <CgDesignmodo className="my-2 h-10 w-10 p-1 text-emerald-600" />
@@ -70,7 +70,7 @@ const About = () => {
             <p>Clean design patterns, and thoughtful interactions.</p>
           </div>
         </div>
-        <div className="flex items-center justify-center rounded-xl bg-white p-4 ">
+        <div className=" flex items-center justify-center rounded-xl bg-white p-4 shadow-lg ">
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
               <BsBookshelf className="my-2 h-10 w-10 p-1 text-emerald-600 " />
