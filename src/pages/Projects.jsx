@@ -1,14 +1,13 @@
 import React from "react";
 import SocialMedia from "../component/stickyIconBar/SocialMedia";
-import ProjectCards from "../component/projects/ProjectCards";
+import MyProjects from "../component/projects/MyProjects";
 import ApiHook from "../api/ApiHook";
 
 const Projects = () => {
   return (
     <>
       <SocialMedia />
-      <ProjectCards />
-      <ApiHook />
+      <MyProjects />
     </>
   );
 };

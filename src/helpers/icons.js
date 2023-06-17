@@ -91,11 +91,6 @@ const skillIcons = [
     name: "github",
     image: Img15,
   },
-  {
-    id: 16,
-    name: "firebase",
-    image: Img16,
-  },
 ];
 
 export default skillIcons;
