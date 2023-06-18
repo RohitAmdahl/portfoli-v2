@@ -15,7 +15,7 @@ module.exports = {
       maxWidth: {
         size: "10rem",
         small: "30px",
-        md: "150px",
+        md: "140px",
       },
       colors: {
         base: "#f9f7f7",
