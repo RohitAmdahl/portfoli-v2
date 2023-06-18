@@ -7,10 +7,10 @@ const TagsIcons = ({ tags }) => {
         {tags.map((items) => {
           return (
             <div
-              className="max-w-size rounded-full bg-white p-2 shadow-inner  shadow-neutral-300 "
+              className="max-w-mdSmall rounded-full bg-white p-2 shadow-inner  shadow-neutral-300 "
               key={items.id}
             >
-              <img src={items.icon} alt="icon logo" className="mx-w-small" />
+              <img src={items.icon} alt="icon logo" />
             </div>
           );
         })}
