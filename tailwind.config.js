@@ -9,7 +9,6 @@ module.exports = {
         xl: "1280px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/images/computer.png')",
         "theme-pattern": "url('/src/images/theme.png')",
       },
       maxWidth: {
@@ -25,6 +24,7 @@ module.exports = {
         black: "#473747",
         pink: "#ff2994",
         skillBase: "#EEF6F6",
+        lightWhite: "#f1f5f9",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
