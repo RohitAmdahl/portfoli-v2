@@ -1,8 +1,8 @@
 import React from "react";
-const LinksIcons = ({ link }) => {
+const LinksIcons = ({ linkProject }) => {
   return (
     <>
-      {link.map((items) => {
+      {linkProject.map((items) => {
         return (
           <div
             className="flex items-center justify-center rounded-full shadow-md shadow-black"

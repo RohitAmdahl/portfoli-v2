@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { HiOutlineLink } from "react-icons/hi";
 import LinksIcons from "./LinksIcons";
 const ProjectCards = ({ project }) => {
-  const { id, image, title, tags, link } = project;
+  const { id, image, title, tags, linkProject } = project;
 
   const navigate = useNavigate();
   function handleClick() {
@@ -44,7 +44,7 @@ const ProjectCards = ({ project }) => {
           </div>
         </div>
         <div className="flex justify-between gap-1 py-5 text-center">
-          <LinksIcons key={link.id} link={link} />
+          <LinksIcons key={linkProject.id} linkProject={linkProject} />
         </div>
       </div>
     </>
