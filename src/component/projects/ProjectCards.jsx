@@ -1,9 +1,14 @@
 import React from "react";
 import TagsIcons from "./TagsIcons";
 import { Link } from "react-router-dom";
-
+import { useNavigate } from "react-router-dom";
 const ProjectCards = ({ project }) => {
   const { id, image, title, tags } = project;
+  const navigate = useNavigate();
+  function handleClick() {
+    // navigate("/project/" + id);
+    navigate(`/project/${id}`);
+  }
   return (
     <div className="dark:bg-gray-800p-4 container mx-auto max-w-lg rounded-3xl bg-white duration-300 ease-in-out hover:shadow-2xl hover:shadow-zinc-400 dark:border-gray-700 lg:px-10 lg:py-6 ">
       <div className="container mx-auto">
@@ -22,7 +27,9 @@ const ProjectCards = ({ project }) => {
         />
       </div>
       <div>
-        <Link to={`project/${id}`}>Read more</Link>
+        <button type="button" onClick={handleClick}>
+          read more
+        </button>
       </div>
     </div>
   );
