@@ -9,10 +9,14 @@ const LinksIcons = ({ link }) => {
             key={items.id}
           >
             <a href={items.url} className="flex items-center  ">
-              <img src={items.website} alt="" />
+              <img src={items.website} alt={items.altText_1} />
             </a>
             <a href={items.github}>
-              <img src={items.githubLinkIcon} alt="" className="" />
+              <img
+                src={items.githubLinkIcon}
+                alt={items.altText}
+                className=""
+              />
             </a>
           </div>
         );

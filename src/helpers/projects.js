@@ -40,11 +40,13 @@ const projectData = [
         id: 0,
         url: "https://creative-zuccutto-14498e.netlify.app",
         website: netlifyIcon,
+        altText_1: "link to website ",
       },
       {
         id: 1,
         github: "https://github.com/RohitAmdahl/one-shop-onlineshop-ca",
         githubLinkIcon: githubIcon,
+        altText: "link to github ",
       },
     ],
   },
@@ -84,11 +86,13 @@ const projectData = [
         id: 0,
         url: "https://monumental-tulumba-33a98f.netlify.app",
         website: netlifyIcon,
+        altText_1: "link to website ",
       },
       {
         id: 1,
         github: "https://github.com/RohitAmdahl/semster-project-2-",
         githubLinkIcon: githubIcon,
+        altText: "link to github ",
       },
     ],
   },
@@ -122,13 +126,15 @@ const projectData = [
       {
         id: 0,
         url: "https://my-frist-website-rainyday.netlify.app",
-        website: netlifyIcon,
+        website_1: netlifyIcon,
+        altText: "link to website ",
       },
       {
         id: 1,
         github:
           "https://github.com/RohitAmdahl/cross-course-project-RohitAmdahl",
         githubLinkIcon: githubIcon,
+        altText: "link to github ",
       },
     ],
   },
@@ -158,13 +164,15 @@ const projectData = [
       {
         id: 0,
         url: "https://science-meseum.netlify.app",
-        website: netlifyIcon,
+        website_1: netlifyIcon,
+        altText: "link to website ",
       },
       {
         id: 1,
         github:
           "https://github.com/RohitAmdahl/Community-Science-Museum-Website",
         githubLinkIcon: githubIcon,
+        altText: "link to github ",
       },
     ],
   },
