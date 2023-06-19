@@ -4,11 +4,10 @@ import projectData from "../../helpers/projects";
 const ProjectDetail = () => {
   const { id } = useParams();
   const data = projectData[id];
-  console.log(data);
 
   return (
     <>
-      <div className="container mx-auto max-w-4xl pt-8 text-center font-serif font-serif text-3xl">
+      <div className="container mx-auto max-w-4xl pt-8 text-center font-serif  text-3xl">
         <h1 className="text-bold pb-10 text-4xl capitalize ">{data.title}</h1>
         <div>
           <img
