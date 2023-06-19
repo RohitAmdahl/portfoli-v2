@@ -126,8 +126,8 @@ const projectData = [
       {
         id: 0,
         url: "https://my-frist-website-rainyday.netlify.app",
-        website_1: netlifyIcon,
-        altText: "link to website ",
+        website: netlifyIcon,
+        altText_1: "link to website ",
       },
       {
         id: 1,
@@ -164,8 +164,8 @@ const projectData = [
       {
         id: 0,
         url: "https://science-meseum.netlify.app",
-        website_1: netlifyIcon,
-        altText: "link to website ",
+        website: netlifyIcon,
+        altText_1: "link to website ",
       },
       {
         id: 1,

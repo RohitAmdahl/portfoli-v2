@@ -8,7 +8,7 @@ const LinksIcons = ({ link }) => {
             className="flex items-center justify-center rounded-full shadow-md shadow-black"
             key={items.id}
           >
-            <a href={items.url} className="flex items-center  ">
+            <a href={items.url} className="flex items-center">
               <img src={items.website} alt={items.altText_1} />
             </a>
             <a href={items.github}>
