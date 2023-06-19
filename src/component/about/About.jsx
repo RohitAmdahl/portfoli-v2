@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
       <SocialMedia />
-      <div className="mt-10 items-center px-10 lg:px-0 ">
+      <div className="mt-10 items-center px-10 lg:px-0  ">
         <div className="container mx-auto flex max-w-5xl items-center justify-center">
           <div
             className=" flex max-w-lg items-center justify-center p-4 md:mx-auto md:flex md:max-w-lg md:flex-col

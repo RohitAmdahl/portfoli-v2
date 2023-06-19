@@ -3,7 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Logo from "../../images/logo/logo.png";
 import { Link } from "react-router-dom";
 import { RxMoon } from "react-icons/rx";
-
+import { useNavigate } from "react-router-dom";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -48,7 +48,7 @@ const Header = () => {
             }
           >
             <ul className="container mx-auto max-w-lg ">
-              <li className="flex items-center justify-center py-4 hover:underline ">
+              <li className="flex items-center justify-center py-4 hover:underline">
                 <Link to="/">Home</Link>
               </li>
 
