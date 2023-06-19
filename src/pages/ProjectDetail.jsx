@@ -1,8 +1,14 @@
 import React from "react";
 import SocialMedia from "../component/stickyIconBar/SocialMedia";
+import ProjectDetail from "../component/detailpage/DetailPage";
 
-const ProjectDetail = () => {
-  return <SocialMedia />;
+const DetailPage = () => {
+  return (
+    <>
+      <SocialMedia />
+      <ProjectDetail />
+    </>
+  );
 };
 
-export default ProjectDetail;
+export default DetailPage;

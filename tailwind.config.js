@@ -21,7 +21,7 @@ module.exports = {
       colors: {
         base: "#f9f7f7",
         test: "#fbf6ec",
-        green: "#006D46",
+        green: "#05A068",
         black: "#473747",
         pink: "#ff2994",
         skillBase: "#EEF6F6",
