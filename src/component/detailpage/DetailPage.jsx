@@ -1,11 +1,12 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import projectData from "../../helpers/projects";
-import LinksIcons from "../projects/LinksIcons";
+
 const ProjectDetail = () => {
   const { id } = useParams();
   const data = projectData[id];
 
+  console.log(data);
   return (
     <>
       <div className="container mx-auto max-w-4xl pt-8 text-center font-serif  text-3xl">
