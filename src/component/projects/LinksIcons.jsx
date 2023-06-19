@@ -9,10 +9,10 @@ const LinksIcons = ({ link }) => {
             key={items.id}
           >
             <a href={items.url} className="flex items-center  ">
-              <img src={items.netlifyIcon} alt="" />
+              <img src={items.website} alt="" />
             </a>
             <a href={items.github}>
-              <img src={items.githubIcon} alt="" className="" />
+              <img src={items.githubLinkIcon} alt="" className="" />
             </a>
           </div>
         );
