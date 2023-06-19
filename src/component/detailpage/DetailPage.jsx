@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import projectData from "../../helpers/projects";
+import LinksIcons from "../projects/LinksIcons";
 const ProjectDetail = () => {
   const { id } = useParams();
   const data = projectData[id];
