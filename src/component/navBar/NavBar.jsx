@@ -13,7 +13,7 @@ const Header = () => {
     <div className="  mx-auto flex items-center justify-center py-4  font-poppins">
       <header className="  container  m-3 mx-auto flex max-w-4xl items-center justify-between rounded-full bg-gray-100 p-5 capitalize shadow-lg">
         <Link to="/" className="logo text-accent text-2xl font-bold">
-          <img src={Logo} alt="logo" className="max-w-size" />
+          <img src={Logo} alt="logo" className=" max-w-mdSize p-3" />
         </Link>
 
         {/* Desktop Nav */}
@@ -35,10 +35,17 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <div>
-          <div className="z-30 cursor-pointer rounded-full border-4 border-amber-400 p-2">
+        <div className="flex items-center justify-center gap-4">
+          <div className="z-30 cursor-pointer rounded-full border-4 border-amber-400 p-1">
             <RxMoon />
           </div>
+          <label className="relative inline-flex cursor-pointer items-center">
+            <input type="checkbox" value="" className="peer sr-only" />
+            <div className="peer h-6 w-11 rounded-full bg-gray-200 after:absolute after:left-[2px] after:top-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:border-gray-600 dark:bg-gray-700 dark:peer-focus:ring-blue-800"></div>
+            <span className="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">
+              english
+            </span>
+          </label>
         </div>
         {/* Mobile Nav */}
         <div className="flex items-center justify-center">
