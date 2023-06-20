@@ -20,7 +20,7 @@ const ProjectCards = ({ project }) => {
             className="mb-2 px-2 text-center font-serif text-2xl font-bold capitalize tracking-tight  text-black  dark:text-white"
             initial={{ y: "100vw" }}
             animate={{ y: 0 }}
-            transition={{ delay: 2.0, type: "spring", stiffness: 60 }}
+            transition={{ delay: 2.0, type: "spring", stiffness: 45 }}
           >
             {title}
           </motion.h5>
