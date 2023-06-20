@@ -9,11 +9,14 @@ const ContactForm = () => {
         <p className="mx-auto py-3 text-center font-serif text-2xl font-bold">
           Thanks for your Message!
         </p>
+        <p className="mx-auto py-3 text-center font-serif text-2xl font-bold">
+          I will Contact You soon!
+        </p>
       </>
     );
   }
   return (
-    <div className=" container mx-auto flex  max-w-xl flex-col p-2">
+    <div className=" container mx-auto flex  max-w-xl flex-col p-10 md:p-4 lg:p-5">
       <form
         action="https://formspree.io/f/myyarvel"
         onSubmit={handleSubmit}
