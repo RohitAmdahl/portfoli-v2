@@ -7,7 +7,7 @@ body {
 }
 
 .mobile-nav {
-  @apply fixed top-0 z-50 block  h-80 w-64 rounded-r-2xl bg-green  font-sans text-xl font-bold text-white duration-500  md:hidden;
+  @apply fixed top-0 z-50 block  h-full w-64 rounded-r-2xl bg-green  font-sans text-xl font-bold text-white duration-500  md:hidden;
 }
 /* * {
   outline: 2px solid red;

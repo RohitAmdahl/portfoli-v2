@@ -1,12 +1,11 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Logo from "../../images/logo/logo.png";
 import { Link } from "react-router-dom";
-import { RxMoon } from "react-icons/rx";
-
+// import { RxMoon } from "react-icons/rx";
+// import { FiSun } from "react-icons/fi";
 const Header = () => {
   const [toggle, setToggle] = useState(false);
-
   const handleToggle = () => setToggle(!toggle);
 
   return (
@@ -35,18 +34,11 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <div className="flex items-center justify-center gap-4">
-          <div className="z-30 cursor-pointer rounded-full border-4 border-amber-400 p-1">
+        {/* <div className="flex items-center justify-center ">
+          <div className="z-30 cursor-pointer rounded-full border-2 border-amber-400 p-1">
             <RxMoon />
           </div>
-          <label className="relative inline-flex cursor-pointer items-center">
-            <input type="checkbox" value="" className="peer sr-only" />
-            <div className="dark:peer-focus: peer h-6 w-11 rounded-full bg-gray-200 ring-green after:absolute after:left-[2px] after:top-[2px] after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-green peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:border-gray-600 dark:bg-gray-700"></div>
-            <span className="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">
-              test
-            </span>
-          </label>
-        </div>
+        </div> */}
         {/* Mobile Nav */}
         <div className="flex items-center justify-center">
           <nav
@@ -55,17 +47,29 @@ const Header = () => {
             }
           >
             <ul className="container mx-auto max-w-lg ">
-              <li className="flex items-center justify-center py-4 hover:underline">
+              <li
+                onClick={handleToggle}
+                className="flex items-center justify-center py-4 hover:underline"
+              >
                 <Link to="/">Home</Link>
               </li>
 
-              <li className="flex items-center justify-center py-4 hover:underline ">
+              <li
+                onClick={handleToggle}
+                className="flex items-center justify-center py-4 hover:underline "
+              >
                 <Link to="/skills">skills</Link>
               </li>
-              <li className="flex items-center justify-center py-4 hover:underline ">
+              <li
+                onClick={handleToggle}
+                className="flex items-center justify-center py-4 hover:underline "
+              >
                 <Link to="/projects">Project</Link>
               </li>
-              <li className="flex items-center justify-center py-4 hover:underline ">
+              <li
+                onClick={handleToggle}
+                className="flex items-center justify-center py-4 hover:underline "
+              >
                 <Link to="/contact">Contact</Link>
               </li>
             </ul>
@@ -73,8 +77,15 @@ const Header = () => {
         </div>
 
         {/* Toggle button */}
-        <button onClick={handleToggle} className="block md:hidden">
-          {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
+        <button
+          onClick={handleToggle}
+          className="block rounded-full shadow-lg shadow-gray-400 md:hidden"
+        >
+          {!toggle ? (
+            <AiOutlineMenu size={30} className=" p-1" />
+          ) : (
+            <AiOutlineClose size={30} />
+          )}
         </button>
       </header>
     </div>
