@@ -5,6 +5,7 @@ import { BsBookshelf } from "react-icons/bs";
 import { FaLaptopCode } from "react-icons/fa";
 import SocialMedia from "../stickyIconBar/SocialMedia";
 import { motion } from "framer-motion";
+
 const About = () => {
   return (
     <>
