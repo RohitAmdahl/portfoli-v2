@@ -48,7 +48,7 @@ const ProjectCards = ({ project }) => {
         <div className=" container mx-auto max-w-md pb-4 lg:max-w-lg">
           <div
             onClick={handleClick}
-            className=" flex cursor-pointer items-center justify-center  gap-2 rounded-full bg-green px-2 py-2 shadow-md shadow-black"
+            className=" flex cursor-pointer items-center justify-center  gap-2 rounded-full bg-green px-2 py-2 shadow-md shadow-black duration-150 ease-in-out hover:bg-black hover:text-white"
           >
             <HiOutlineLink className="text-white" size={20} />
             <button

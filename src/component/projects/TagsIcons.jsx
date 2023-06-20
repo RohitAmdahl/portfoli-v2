@@ -10,7 +10,11 @@ const TagsIcons = ({ tags }) => {
               className="max-w-mdSmall rounded-full bg-white p-2 shadow-inner  shadow-neutral-300 "
               key={items.id}
             >
-              <img src={items.icon} alt="icon logo" />
+              <img
+                src={items.icon}
+                alt="icon logo"
+                className=" cursor-not-allowed "
+              />
             </div>
           );
         })}
