@@ -14,7 +14,7 @@ const ProjectCards = ({ project }) => {
   }
   return (
     <>
-      <div className=" dark:bg-gray-800p-4 container mx-auto max-w-lg overflow-hidden rounded-3xl bg-gray-100 p-8 text-black duration-300 ease-in-out hover:shadow-2xl hover:shadow-zinc-400 dark:border-gray-700 lg:px-10 lg:py-6">
+      <div className=" dark:bg-gray-800p-4 container mx-auto max-w-lg overflow-hidden rounded-3xl bg-gray-100 p-8 text-black duration-300 ease-in-out hover:shadow-2xl  hover:shadow-zinc-400 dark:border-gray-700 lg:px-10 lg:py-6">
         <div className="container mx-auto pt-3 text-black">
           <motion.h5
             className="mb-2 px-2 text-center font-serif text-2xl font-bold capitalize tracking-tight  text-black  dark:text-white"
@@ -48,9 +48,12 @@ const ProjectCards = ({ project }) => {
         <div className=" container mx-auto max-w-md pb-4 md:max-w-md lg:max-w-lg">
           <div
             onClick={handleClick}
-            className=" flex  cursor-pointer items-center justify-center  gap-2 rounded-full bg-green px-2 py-2 shadow-md shadow-black duration-150 ease-in-out hover:bg-black hover:text-white"
+            className=" flex  cursor-pointer items-center justify-center  gap-2 rounded-full bg-green px-2 py-2 shadow-md shadow-black duration-150 ease-in-out hover:bg-black hover:text-white "
           >
-            <HiOutlineLink className="text-white" size={20} />
+            <HiOutlineLink
+              className=" animate-pulse text-white hover:animate-none "
+              size={25}
+            />
             <button
               type="button"
               className=" cursor-pointer text-lg capitalize text-white"

@@ -5,7 +5,7 @@ const LinksIcons = ({ linkProject }) => {
       {linkProject.map((items) => {
         return (
           <div
-            className="flex items-center justify-center rounded-full shadow-md shadow-black"
+            className="flex  items-center justify-center rounded-full shadow-md shadow-black"
             key={items.id}
           >
             <a href={items.url} className="flex items-center rounded-full">
