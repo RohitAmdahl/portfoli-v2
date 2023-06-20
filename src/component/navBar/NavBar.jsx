@@ -40,35 +40,35 @@ const Header = () => {
           </div>
         </div> */}
         {/* Mobile Nav */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center ">
           <nav
             className={
               !toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0  "
             }
           >
-            <ul className="container mx-auto max-w-lg ">
+            <ul className="container mx-auto max-w-lg   ">
               <li
                 onClick={handleToggle}
-                className="flex items-center justify-center py-4 hover:underline"
+                className="flex items-center justify-center py-4 duration-100  ease-out hover:text-green hover:underline"
               >
                 <Link to="/">Home</Link>
               </li>
 
               <li
                 onClick={handleToggle}
-                className="flex items-center justify-center py-4 hover:underline "
+                className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
               >
                 <Link to="/skills">skills</Link>
               </li>
               <li
                 onClick={handleToggle}
-                className="flex items-center justify-center py-4 hover:underline "
+                className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
               >
                 <Link to="/projects">Project</Link>
               </li>
               <li
                 onClick={handleToggle}
-                className="flex items-center justify-center py-4 hover:underline "
+                className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
               >
                 <Link to="/contact">Contact</Link>
               </li>

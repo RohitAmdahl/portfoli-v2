@@ -8,14 +8,18 @@ const LinksIcons = ({ linkProject }) => {
             className="flex items-center justify-center rounded-full shadow-md shadow-black"
             key={items.id}
           >
-            <a href={items.url} className="flex items-center">
-              <img src={items.website} alt={items.altText_1} />
+            <a href={items.url} className="flex items-center rounded-full">
+              <img
+                src={items.website}
+                alt={items.altText_1}
+                className=" cursor-pointer rounded-full hover:bg-green"
+              />
             </a>
             <a href={items.github}>
               <img
                 src={items.githubLinkIcon}
                 alt={items.altText}
-                className=""
+                className=" cursor-pointer rounded-full hover:bg-pink "
               />
             </a>
           </div>
