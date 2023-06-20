@@ -15,7 +15,7 @@ import githubIcon from "../images/icons/github.png";
 const projectData = [
   {
     id: 0,
-    title: "One shop",
+    title: "E-commerce, One Shop",
     image: project_1,
     tags: [
       {
