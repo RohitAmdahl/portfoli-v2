@@ -1,7 +1,12 @@
 import React from "react";
 import profilePic from "../../images/avatar_profile_.png";
-const Contact = () => {
-  return <div>Contact</div>;
+
+const ContactMe = () => {
+  return (
+    <div>
+      <img src={profilePic} alt="" className="max-w-xl" />
+    </div>
+  );
 };
 
-export default Contact;
+export default ContactMe;
