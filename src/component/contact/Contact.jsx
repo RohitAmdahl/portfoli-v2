@@ -4,6 +4,9 @@ import ContactForm from "./ContactForm";
 const ContactMe = () => {
   return (
     <>
+      <div className=" font-serif font-thin ">
+        <h1 className="py-3 text-center text-5xl ">Contact Me</h1>
+      </div>
       <div>
         <img
           src={profilePic}
