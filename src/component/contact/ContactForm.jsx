@@ -14,9 +14,6 @@ const ContactForm = () => {
   }
   return (
     <div className=" container mx-auto flex  max-w-xl flex-col p-2">
-      <div>
-        <h1 className="py-3 text-center text-2xl font-bold">Contact Me</h1>
-      </div>
       <form
         action="https://formspree.io/f/myyarvel"
         onSubmit={handleSubmit}
