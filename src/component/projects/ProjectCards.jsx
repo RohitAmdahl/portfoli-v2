@@ -20,7 +20,7 @@ const ProjectCards = ({ project }) => {
             className="mb-2 px-2 text-center font-serif text-2xl font-bold capitalize tracking-tight  text-black  dark:text-white"
             initial={{ x: "100vw" }}
             animate={{ x: 0 }}
-            transition={{ delay: 2.5, type: "spring", stiffness: 30 }}
+            transition={{ delay: 2.2, type: "spring", stiffness: 60 }}
           >
             {title}
           </motion.h5>
@@ -28,7 +28,7 @@ const ProjectCards = ({ project }) => {
             className=" flex items-center justify-center"
             initial={{ y: "100vw" }}
             animate={{ y: 0 }}
-            transition={{ delay: 1.5, type: "spring", stiffness: 30 }}
+            transition={{ delay: 1.1, type: "spring", stiffness: 45 }}
           >
             <TagsIcons key={tags.id} tags={tags} />
           </motion.div>
@@ -37,7 +37,7 @@ const ProjectCards = ({ project }) => {
           className="flex items-center justify-center"
           initial={{ y: "100vw" }}
           animate={{ y: 0 }}
-          transition={{ delay: 0.9, type: "spring", stiffness: 30 }}
+          transition={{ delay: 0.5, type: "spring", stiffness: 50 }}
         >
           <img
             className="w-full max-w-sm rounded-t-lg p-6 md:max-w-xl lg:max-w-2xl"

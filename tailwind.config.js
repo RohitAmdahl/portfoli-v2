@@ -15,7 +15,7 @@ module.exports = {
         size: "10rem",
         small: "30px",
         mdSmall: "35px",
-        md: "140px",
+        mdSize: "140px",
       },
       colors: {
         base: "#f9f7f7",
