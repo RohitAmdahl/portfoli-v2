@@ -18,9 +18,9 @@ const ProjectCards = ({ project }) => {
         <div className="container mx-auto pt-3">
           <motion.h5
             className="mb-2 px-2 text-center font-serif text-2xl font-bold capitalize tracking-tight  text-black  dark:text-white"
-            initial={{ x: "100vw" }}
-            animate={{ x: 0 }}
-            transition={{ delay: 2.2, type: "spring", stiffness: 60 }}
+            initial={{ y: "100vw" }}
+            animate={{ y: 0 }}
+            transition={{ delay: 2.0, type: "spring", stiffness: 60 }}
           >
             {title}
           </motion.h5>
