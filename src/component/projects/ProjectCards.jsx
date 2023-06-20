@@ -14,8 +14,8 @@ const ProjectCards = ({ project }) => {
   }
   return (
     <>
-      <div className=" dark:bg-gray-800p-4 container mx-auto max-w-lg overflow-hidden rounded-3xl bg-gray-100 p-8 duration-300 ease-in-out hover:shadow-2xl hover:shadow-zinc-400 dark:border-gray-700 lg:px-10 lg:py-6">
-        <div className="container mx-auto pt-3">
+      <div className=" dark:bg-gray-800p-4 container mx-auto max-w-lg overflow-hidden rounded-3xl bg-gray-100 p-8 text-black duration-300 ease-in-out hover:shadow-2xl hover:shadow-zinc-400 dark:border-gray-700 lg:px-10 lg:py-6">
+        <div className="container mx-auto pt-3 text-black">
           <motion.h5
             className="mb-2 px-2 text-center font-serif text-2xl font-bold capitalize tracking-tight  text-black  dark:text-white"
             initial={{ y: "100vw" }}
