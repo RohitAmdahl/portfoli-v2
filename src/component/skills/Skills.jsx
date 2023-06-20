@@ -10,9 +10,13 @@ const MySkills = () => {
       </div>
       <motion.div
         className=" container mx-auto grid grid-cols-2 items-center gap-3 p-12 md:grid-cols-3 md:gap-5 lg:grid-cols-4 lg:gap-5 lg:p-3 "
-        initial={{ x: "100vw" }}
-        animate={{ x: 0 }}
-        transition={{ delay: 0.5, type: "spring", stiffness: 120 }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{
+          delay: 0.3,
+          type: "string",
+          duration: 0.9,
+        }}
       >
         {skillIcons.map((icons) => {
           return <SkillsCards key={icons.id} icons={icons} />;
