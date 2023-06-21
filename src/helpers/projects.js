@@ -2,6 +2,7 @@ import project_1 from "../images/project/one-shop.png";
 import project_2 from "../images/project/auction.png";
 import project_3 from "../images/project/rainyday.png";
 import project_4 from "../images/project/science.png";
+import project_5 from "../images/project/portfolio_website.png";
 import css from "../images/icons/css.png";
 import Javascript from "../images/icons/logos_javascript.png";
 import html5 from "../images/icons/html.png";
@@ -101,6 +102,7 @@ const projectData = [
       },
     ],
   },
+
   {
     id: 2,
     title: "rainyday",
@@ -145,6 +147,7 @@ const projectData = [
       },
     ],
   },
+
   {
     id: 3,
     title: "community science museum",
@@ -185,10 +188,11 @@ const projectData = [
       },
     ],
   },
+
   {
     id: 4,
     title: "PortFolio",
-    image: project_4,
+    image: project_5,
     tags: [
       {
         id: 0,
@@ -204,10 +208,10 @@ const projectData = [
       },
     ],
     description:
-      "Welcome to the Community Science Museum, where science is made accessible to everyone! We believe that science should transcend the confines of textbooks and be experienced firsthand through engaging exhibits. With over 1000 diverse exhibits, we offer a multitude of subjects to explore. Our exhibits are designed to encourage interaction, allowing you to immerse yourself in the wonders of science. From hands-on experiments to captivating displays, you can witness science come alive before your eyes. (Just a friendly reminder: while our dinosaur exhibits remain stationary during the day, they mysteriously come to life at night when the visitors have left.) Join us at the Community Science Museum, where we are passionately dedicated to making the wonders of science accessible to all.",
+      "Introducing my portfolio! I'm Rohit, a front-end developer skilled in Create React App and Tailwind CSS. With a beautiful and user-friendly design, I showcase simplicity and ease of understanding. Explore my work and let's connect for exciting collaborations!",
 
     learning:
-      "Learning HTML and CSS through practical application has been a highly valuable experience. By actively working on projects, I've gained a comprehensive understanding of how these languages function and interact. Through hands-on experimentation, I've grasped the intricacies of HTML's structural elements and the transformative power of CSS in styling and enhancing web content. This practical approach has been instrumental in solidifying my knowledge and skills, allowing me to comprehend the inner workings of these essential web technologies.",
+      "Practical application My portfolio Front-End Development, Tailwind CSS, Design Principals, User Experience (UX),  and fully Responsive Design i am really happy to show my work.",
 
     linkProject: [
       {
