@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import Logo from "../../images/logo/logo.png";
 import { CgDesignmodo } from "react-icons/cg";
 import { BsBookshelf } from "react-icons/bs";
 import { FaLaptopCode } from "react-icons/fa";
 import SocialMedia from "../stickyIconBar/SocialMedia";
 import { motion } from "framer-motion";
-
+import AppContext from "../../Context/LangContext";
 const About = () => {
+  const { english } = useContext(AppContext);
   return (
     <>
       <SocialMedia />
@@ -20,18 +21,20 @@ const About = () => {
               <h1 className=" font-serif text-4xl font-bold capitalize text-black lg:text-5xl ">
                 rohit kumar amdahl
               </h1>
-              <p className=" font-serif text-lg font-normal text-black">
-                Designer and frontend developer
-              </p>
+              <h2 className=" pt-2 font-serif text-2xl font-normal text-black">
+                {english
+                  ? "Designer and frontend developer"
+                  : "Designer og front-end-utvikler"}
+              </h2>
               <p className="text-md py-4 font-sans font-normal">
-                Hello there! My name is Rohit, and I am a passionate front-end
-                developer with a keen eye for design.
+                {english
+                  ? "Hello there! I am a passionate front-end developer with a keen eye for design."
+                  : "Hei! jeg er en lidenskapelig front-end-utvikler med et godt øye for design."}
               </p>
               <p className="md-w-full py-2 font-sans font-normal md:tracking-wide lg:w-full lg:tracking-wide">
-                With a solid background in design, I bring a unique perspective
-                to my development work. Having previously collaborated with
-                architects, I gained valuable insights into the world of design
-                and architecture.
+                {english
+                  ? "With a solid background in design, I bring a unique perspective to my development work. Having previously collaborated with architects,i gained valuable insights into the world of design and architecture "
+                  : "Med en solid bakgrunn innen design,bringer jeg et unikt perspektiv til utviklingsarbeidet mitt. Har tidligere samarbeidet med arkitekter,fikk jeg verdifull innsikt i designverdenen og arkitektur. "}
               </p>
             </div>
           </div>
@@ -54,11 +57,14 @@ const About = () => {
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
               <FaLaptopCode className="my-2 h-10 w-10 p-1 text-emerald-600" />
-              <span className="text-lg font-bold">Developer</span>
+              <span className="text-lg font-bold">
+                {english ? "Developer" : "Utvikler"}
+              </span>
             </div>
             <p>
-              I delight in coding from scratch and bringing ideas to life on the
-              web.
+              {english
+                ? "I delight in coding from scratch and bringing ideas to life on the web."
+                : "Jeg gleder meg over å kode fra bunnen av og henter/tar ideer til live."}
             </p>
           </div>
         </motion.div>
@@ -68,7 +74,11 @@ const About = () => {
               <CgDesignmodo className="my-2 h-10 w-10 p-1 text-emerald-600" />
               <span className="text-lg font-bold">Designer</span>
             </div>
-            <p>Clean design patterns, and thoughtful interactions.</p>
+            <p>
+              {english
+                ? "Clean design patterns, and thoughtful interactions."
+                : "Rene designmønstre og gjennomtenkte interaksjoner."}
+            </p>
           </div>
         </div>
         <div className=" flex items-center justify-center rounded-xl bg-gray-100 p-4 shadow-lg ">
@@ -77,7 +87,11 @@ const About = () => {
               <BsBookshelf className="my-2 h-10 w-10 p-1 text-emerald-600 " />
               <span className="text-lg font-bold">Learning</span>
             </div>
-            <p>I have a sincere passion for learning new thing.</p>
+            <p>
+              {english
+                ? "I have a sincere passion for learning new thing."
+                : "Jeg har en oppriktig lidenskap for å lære nye ting."}
+            </p>
           </div>
         </div>
       </motion.div>
