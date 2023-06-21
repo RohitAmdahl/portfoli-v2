@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import TagsIcons from "./TagsIcons";
 import { useNavigate } from "react-router-dom";
 import { HiOutlineLink } from "react-icons/hi";
 import LinksIcons from "./LinksIcons";
 import { motion } from "framer-motion";
+import AppContext from "../../Context/LangContext";
 const ProjectCards = ({ project }) => {
+  const { english } = useContext(AppContext);
   const { id, image, title, tags, linkProject } = project;
 
   const navigate = useNavigate();
@@ -58,7 +60,7 @@ const ProjectCards = ({ project }) => {
               type="button"
               className=" cursor-pointer text-lg capitalize text-white"
             >
-              read more
+              {english ? "Read More" : "Les mer"}
             </button>
           </div>
         </div>

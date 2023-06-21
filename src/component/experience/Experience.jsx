@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import { BsPersonWorkspace } from "react-icons/bs";
+import AppContext from "../../Context/LangContext";
 const Experience = () => {
+  const { english } = useContext(AppContext);
   return (
     <>
       <div className="pb-2 font-serif text-5xl lg:pb-6">
-        <h2 className="mb-10 p-1 text-center font-thin">Experience</h2>
+        <h2 className="mb-10 p-1 text-center font-thin">
+          {english ? "Experience" : "Erfaring"}
+        </h2>
       </div>
       <div className="ml-12 px-5 py-5 md:m-0 lg:m-0 ">
         <div className="flex items-center justify-center ">
@@ -15,7 +19,7 @@ const Experience = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{
-                delay: 1.2,
+                delay: 2.5,
                 type: "string",
                 duration: 0.9,
                 stiffness: 500,

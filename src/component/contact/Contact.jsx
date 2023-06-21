@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
 import profilePic from "../../images/91061651.jpg";
 import ContactForm from "./ContactForm";
+import AppContext from "../../Context/LangContext";
 const ContactMe = () => {
+  const { english } = useContext(AppContext);
   return (
     <>
       <div className=" font-serif font-thin ">
-        <h1 className="py-3 pt-5 text-center text-5xl ">"Let's Connect!</h1>
+        <h1 className="py-3 pt-5 text-center text-5xl capitalize ">
+          {english ? "Let's Connect!" : "La oss snakke sammen!"}
+        </h1>
         <p className="text-center font-sans text-2xl font-bold">
           +47 405 38 464
         </p>
