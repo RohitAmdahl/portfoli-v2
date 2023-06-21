@@ -64,7 +64,7 @@ const About = () => {
             <p>
               {english
                 ? "I delight in coding from scratch and bringing ideas to life on the web."
-                : "Jeg gleder meg over å kode fra bunnen av og henter/tar ideer til live."}
+                : "Jeg nyter å kunne kode fra bunnen av, og å bringe til live ideer på nettet."}
             </p>
           </div>
         </motion.div>
@@ -92,7 +92,7 @@ const About = () => {
             <p>
               {english
                 ? "I have a sincere passion for learning new thing."
-                : "Jeg har en oppriktig lidenskap for å lære nye ting."}
+                : "Jeg har en genuin lidenskap for å lære meg nye ting."}
             </p>
           </div>
         </div>
