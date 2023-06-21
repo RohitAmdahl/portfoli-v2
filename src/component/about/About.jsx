@@ -29,7 +29,7 @@ const About = () => {
               <p className="text-md py-4 font-sans font-normal">
                 {english
                   ? "Hello there! I am a passionate front-end developer with a keen eye for design."
-                  : "Hei! jeg er en lidenskapelig front-end-utvikler med et godt øye for design."}
+                  : "Heisann! Jeg er en Front-end utvikler som ordentlig brenner for gode visuelle løsninger."}
               </p>
               <p className="md-w-full py-2 font-sans font-normal md:tracking-wide lg:w-full lg:tracking-wide">
                 {english
