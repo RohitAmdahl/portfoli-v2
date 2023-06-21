@@ -12,7 +12,7 @@ const Header = () => {
     <div className="  mx-auto flex items-center justify-center py-4  font-poppins">
       <header className="  container  m-3 mx-auto flex max-w-4xl items-center justify-between rounded-full bg-gray-100 p-5 capitalize shadow-lg">
         <Link to="/" className="logo text-accent text-2xl font-bold">
-          <img src={Logo} alt="logo" className=" max-w-mdSize p-3" />
+          <img src={Logo} alt="logo" className=" max-w-mdSize " />
         </Link>
 
         {/* Desktop Nav */}
