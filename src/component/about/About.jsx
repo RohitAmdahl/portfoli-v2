@@ -33,8 +33,8 @@ const About = () => {
               </p>
               <p className="md-w-full py-2 font-sans font-normal md:tracking-wide lg:w-full lg:tracking-wide">
                 {english
-                  ? "With a solid background in design, I bring a unique perspective to my development work. Having previously collaborated with architects,i gained valuable insights into the world of design and architecture "
-                  : "Med en solid bakgrunn innen design,bringer jeg et unikt perspektiv til utviklingsarbeidet mitt. Har tidligere samarbeidet med arkitekter,fikk jeg verdifull innsikt i designverdenen og arkitektur. "}
+                  ? "With a solid background in design, I bring a unique perspective to my development work. Having previously collaborated with architects,i gained valuable insights into the world of design and architecture. "
+                  : "Med en solid bakgrunn innen design, bringer jeg et unikt perspektiv til utviklingsarbeidet mitt. Har tidligere samarbeidet med arkitekter, fikk jeg verdifull innsikt i designverdenen og arkitektur. "}
               </p>
             </div>
           </div>
