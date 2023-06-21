@@ -222,8 +222,7 @@ const projectData = [
       },
       {
         id: 1,
-        github:
-          "https://github.com/RohitAmdahl/Community-Science-Museum-Website",
+        github: "https://github.com/RohitAmdahl/portfoli-v2",
         githubLinkIcon: githubIcon,
         altText: "link to github ",
       },
