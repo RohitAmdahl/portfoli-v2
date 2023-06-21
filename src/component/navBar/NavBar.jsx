@@ -3,6 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Logo from "../../images/logo/logo.png";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import Language from "./Language";
 // import { RxMoon } from "react-icons/rx";
 // import { FiSun } from "react-icons/fi";
 const Header = () => {
@@ -63,11 +64,11 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        {/* <div className="flex items-center justify-center ">
-          <div className="z-30 cursor-pointer rounded-full border-2 border-amber-400 p-1">
-            <RxMoon />
+        <div className="flex items-center justify-center ">
+          <div className="z-30 flex cursor-pointer items-center justify-center gap-4 rounded-full border-2 border-green p-1">
+            <Language />
           </div>
-        </div> */}
+        </div>
         {/* Mobile Nav */}
         <div className="flex items-center justify-center ">
           <nav
