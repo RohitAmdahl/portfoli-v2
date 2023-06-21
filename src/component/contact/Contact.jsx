@@ -24,7 +24,7 @@ const ContactMe = () => {
           <p className="text-center text-lg text-black ">
             {english
               ? "Looking forward to connecting with you! feel free to reach out"
-              : "Ser frem til å få kontakt med deg! Ta gjerne kontakt."}
+              : "Ser frem til å høre fra deg! Ta gjerne kontakt."}
           </p>
         </div>
         <ContactForm />
