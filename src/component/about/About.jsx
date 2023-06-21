@@ -85,7 +85,9 @@ const About = () => {
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
               <BsBookshelf className="my-2 h-10 w-10 p-1 text-emerald-600 " />
-              <span className="text-lg font-bold">Learning</span>
+              <span className="text-lg font-bold">
+                {english ? "A good Learner" : "Lærer fort"}
+              </span>
             </div>
             <p>
               {english
