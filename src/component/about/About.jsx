@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Logo from "../../images/logo/logo.png";
 import { CgDesignmodo } from "react-icons/cg";
-import { BsBookshelf } from "react-icons/bs";
+import { BsBarChartSteps } from "react-icons/bs";
 import { FaLaptopCode } from "react-icons/fa";
 import SocialMedia from "../stickyIconBar/SocialMedia";
 import { motion } from "framer-motion";
@@ -84,7 +84,7 @@ const About = () => {
         <div className=" flex items-center justify-center rounded-xl bg-gray-100 p-4 shadow-lg ">
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
-              <BsBookshelf className="my-2 h-10 w-10 p-1 text-emerald-600 " />
+              <BsBarChartSteps className="my-2 h-10 w-10 p-1 text-emerald-600 " />
               <span className="text-lg font-bold">
                 {english ? "A good Learner" : "Lærer fort"}
               </span>
