@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import projectData from "../../helpers/projects";
-import logo from "../../images/logo/logo.png";
+
 const ProjectDetail = () => {
   const { id } = useParams();
   const data = projectData[id];

@@ -27,7 +27,7 @@ const About = () => {
                 Hello there! My name is Rohit, and I am a passionate front-end
                 developer with a keen eye for design.
               </p>
-              <p className="md-w-full py-2 font-sans font-normal md:tracking-wide  lg:w-full lg:tracking-wide">
+              <p className="md-w-full py-2 font-sans font-normal md:tracking-wide lg:w-full lg:tracking-wide">
                 With a solid background in design, I bring a unique perspective
                 to my development work. Having previously collaborated with
                 architects, I gained valuable insights into the world of design
