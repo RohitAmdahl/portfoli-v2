@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import projectData from "../../helpers/projects";
-
+import AppContext from "../../Context/LangContext";
 const ProjectDetail = () => {
+  const { english } = useContext(AppContext);
   const { id } = useParams();
   const data = projectData[id];
 
@@ -19,13 +20,15 @@ const ProjectDetail = () => {
         </div>
       </div>
       <div className="container mx-auto max-w-2xl p-4 text-start">
-        <p className="px-6 py-5 font-serif text-4xl capitalize">description</p>
+        <p className="px-6 py-5 font-serif text-4xl capitalize">
+          {english ? "description" : "beskrivelse"}
+        </p>
 
         <p className="p-6 pl-10 pr-2 text-lg"> {data.description} </p>
       </div>
       <div className="container mx-auto max-w-2xl p-4 text-start">
         <p className=" px-6 py-5 font-serif text-4xl capitalize">
-          "the things I learned"
+          {english ? "`the things I learned`" : "jeg lærte mye"}
         </p>
         <p className=" py-3 pl-10 pr-2 text-lg"> {data.learning} </p>
       </div>
