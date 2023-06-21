@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Logo from "../../images/logo/logo.png";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 // import { RxMoon } from "react-icons/rx";
 // import { FiSun } from "react-icons/fi";
 const Header = () => {
@@ -18,19 +19,47 @@ const Header = () => {
         {/* Desktop Nav */}
         <nav className="hidden md:block ">
           <ul className="flex justify-between px-4 ">
-            <li className="px-4 text-green hover:underline md:border-r-2 lg:border-r-2 ">
-              <Link to="/">Home</Link>
+            <li className="px-4  hover:underline md:border-r-2 lg:border-r-2 ">
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? "active" : "notActive"
+                }
+              >
+                Home
+              </NavLink>
             </li>
 
             <li className="px-4 hover:text-green hover:underline md:border-r-2 lg:border-r-2">
-              <Link to="/skills">skills</Link>
+              <NavLink
+                to="/skills"
+                className={({ isActive }) =>
+                  isActive ? "active" : "notActive"
+                }
+              >
+                skills
+              </NavLink>
             </li>
             <li className="px-4 hover:text-green hover:underline md:border-r-2 lg:border-r-2 ">
-              <Link to="/projects">Project</Link>
+              <NavLink
+                to="/projects"
+                className={({ isActive }) =>
+                  isActive ? "active" : "notActive"
+                }
+              >
+                Project
+              </NavLink>
             </li>
 
             <li className="px-4 hover:text-green hover:underline ">
-              <Link to="/contact">Contact</Link>
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive ? "active" : "notActive"
+                }
+              >
+                Contact
+              </NavLink>
             </li>
           </ul>
         </nav>
@@ -51,26 +80,26 @@ const Header = () => {
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100  ease-out hover:text-green hover:underline"
               >
-                <Link to="/">Home</Link>
+                <NavLink to="/">Home</NavLink>
               </li>
 
               <li
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
               >
-                <Link to="/skills">skills</Link>
+                <NavLink to="/skills">skills</NavLink>
               </li>
               <li
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
               >
-                <Link to="/projects">Project</Link>
+                <NavLink to="/projects">Project</NavLink>
               </li>
               <li
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
               >
-                <Link to="/contact">Contact</Link>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
           </nav>

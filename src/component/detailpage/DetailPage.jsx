@@ -18,12 +18,12 @@ const ProjectDetail = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto max-w-xl p-4 text-start">
-        <p className="p-6 py-5 font-serif text-4xl capitalize">description</p>
+      <div className="container mx-auto max-w-2xl p-4 text-start">
+        <p className="px-6 py-5 font-serif text-4xl capitalize">description</p>
 
         <p className="p-6 pl-10 pr-2 text-lg"> {data.description} </p>
       </div>
-      <div className="container mx-auto max-w-xl p-4 text-start">
+      <div className="container mx-auto max-w-2xl p-4 text-start">
         <p className=" px-6 py-5 font-serif text-4xl capitalize">
           "the things I learned"
         </p>
