@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Logo from "../../images/logo/logo.png";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import Language from "./Language";
+import AppContext from "../../Context/LangContext";
 // import { RxMoon } from "react-icons/rx";
 // import { FiSun } from "react-icons/fi";
 const Header = () => {
+  const { english } = useContext(AppContext);
   const [toggle, setToggle] = useState(false);
   const handleToggle = () => setToggle(!toggle);
 
@@ -27,7 +29,7 @@ const Header = () => {
                   isActive ? "active" : "notActive"
                 }
               >
-                Home
+                {english ? "Home" : "Hjem"}
               </NavLink>
             </li>
 
@@ -38,7 +40,7 @@ const Header = () => {
                   isActive ? "active" : "notActive"
                 }
               >
-                skills
+                {english ? "skills" : "Ferdigheter"}
               </NavLink>
             </li>
             <li className="px-4 hover:text-green hover:underline md:border-r-2 lg:border-r-2 ">
@@ -48,7 +50,7 @@ const Header = () => {
                   isActive ? "active" : "notActive"
                 }
               >
-                Project
+                {english ? "Project" : "Prosjekter"}
               </NavLink>
             </li>
 
@@ -59,7 +61,7 @@ const Header = () => {
                   isActive ? "active" : "notActive"
                 }
               >
-                Contact
+                {english ? "Contact" : "Kontakt"}
               </NavLink>
             </li>
           </ul>
@@ -81,26 +83,32 @@ const Header = () => {
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100  ease-out hover:text-green hover:underline"
               >
-                <NavLink to="/">Home</NavLink>
+                <NavLink to="/"> {english ? "Home" : "Hjem"}</NavLink>
               </li>
 
               <li
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
               >
-                <NavLink to="/skills">skills</NavLink>
+                <NavLink to="/skills">
+                  {english ? "skills" : "Ferdigheter"}
+                </NavLink>
               </li>
               <li
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
               >
-                <NavLink to="/projects">Project</NavLink>
+                <NavLink to="/projects">
+                  {english ? "Project" : "Prosjekter"}
+                </NavLink>
               </li>
               <li
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
               >
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/contact">
+                  {english ? "Contact" : "Kontakt"}
+                </NavLink>
               </li>
             </ul>
           </nav>
