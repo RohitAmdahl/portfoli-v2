@@ -67,7 +67,7 @@ const Header = () => {
           </ul>
         </nav>
         <div className="flex items-center justify-center ">
-          <div className="z-30 flex cursor-pointer items-center justify-center gap-4 rounded-full border-2 border-green p-1">
+          <div className="z-30 flex cursor-pointer items-center justify-center gap-4 rounded-full  p-1">
             <Language />
           </div>
         </div>
