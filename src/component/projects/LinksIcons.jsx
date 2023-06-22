@@ -5,24 +5,27 @@ const LinksIcons = ({ linkProject }) => {
       {linkProject.map((items) => {
         return (
           <div
-            className="flex  items-center justify-center rounded-full shadow-md shadow-black"
+            className=" flex items-center  justify-center rounded-full shadow-md shadow-black"
             key={items.id}
           >
             <div>
               <a
                 href={items.url}
-                className="flex max-w-sm  items-center rounded-full"
+                className=" flex max-w-sm items-center rounded-full"
               >
                 <img
                   src={items.website}
                   alt={items.altText_1}
-                  className="  cursor-pointer rounded-full hover:bg-green "
+                  className=" cursor-pointer rounded-full hover:bg-green "
                 />
               </a>
             </div>
 
             <div>
-              <a href={items.github}>
+              <a
+                href={items.github}
+                className="flex max-w-sm  items-center rounded-full"
+              >
                 <img
                   src={items.githubLinkIcon}
                   alt={items.altText}

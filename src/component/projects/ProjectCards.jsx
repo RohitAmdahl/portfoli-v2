@@ -64,7 +64,7 @@ const ProjectCards = ({ project }) => {
             </button>
           </div>
         </div>
-        <div className="flex justify-between gap-1 py-5 text-center">
+        <div className="flex justify-between gap-1 py-3 text-center">
           <LinksIcons key={linkProject.id} linkProject={linkProject} />
         </div>
       </div>
