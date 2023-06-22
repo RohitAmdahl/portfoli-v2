@@ -222,7 +222,7 @@ const projectData = [
       },
       {
         id: 1,
-        github: "https://github.com/RohitAmdahl/portfoli-v2",
+        github: "https://github.com/RohitAmdahl",
         githubLinkIcon: githubIcon,
         altText: "link to github ",
       },
