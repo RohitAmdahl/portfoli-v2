@@ -17,6 +17,46 @@ import githubIcon from "../images/icons/github.png";
 const projectData = [
   {
     id: 0,
+    title: "PortFolio",
+    image: project_5,
+    tags: [
+      {
+        id: 0,
+        icon: react,
+      },
+      {
+        id: 1,
+        icon: tailwind,
+      },
+      {
+        id: 2,
+        icon: figma,
+      },
+    ],
+    description:
+      "Introducing my portfolio! I'm Rohit, a front-end developer skilled in Create React App and Tailwind CSS. With a beautiful and user-friendly design, I showcase simplicity and ease of understanding. Explore my work and let's connect for exciting collaborations!",
+
+    learning:
+      "Practical application My portfolio Front-End Development, Tailwind CSS, Design Principals, User Experience (UX),  and fully Responsive Design i am really happy to show my work.",
+
+    linkProject: [
+      {
+        id: 0,
+        url: "https://rk-amdahl-portfolio.netlify.app/",
+        website: netlifyIcon,
+        altText_1: "link to website ",
+      },
+      {
+        id: 1,
+        github: "https://github.com/RohitAmdahl",
+        githubLinkIcon: githubIcon,
+        altText: "link to github ",
+      },
+    ],
+  },
+
+  {
+    id: 1,
     title: "E-commerce, One Shop",
     image: project_1,
     tags: [
@@ -56,7 +96,7 @@ const projectData = [
   },
 
   {
-    id: 1,
+    id: 2,
     title: "Auction",
     image: project_2,
     tags: [
@@ -104,7 +144,7 @@ const projectData = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "rainyday",
     image: project_3,
     tags: [
@@ -149,7 +189,7 @@ const projectData = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "community science museum",
     image: project_4,
     tags: [
@@ -183,46 +223,6 @@ const projectData = [
         id: 1,
         github:
           "https://github.com/RohitAmdahl/Community-Science-Museum-Website",
-        githubLinkIcon: githubIcon,
-        altText: "link to github ",
-      },
-    ],
-  },
-
-  {
-    id: 4,
-    title: "PortFolio",
-    image: project_5,
-    tags: [
-      {
-        id: 0,
-        icon: react,
-      },
-      {
-        id: 1,
-        icon: tailwind,
-      },
-      {
-        id: 2,
-        icon: figma,
-      },
-    ],
-    description:
-      "Introducing my portfolio! I'm Rohit, a front-end developer skilled in Create React App and Tailwind CSS. With a beautiful and user-friendly design, I showcase simplicity and ease of understanding. Explore my work and let's connect for exciting collaborations!",
-
-    learning:
-      "Practical application My portfolio Front-End Development, Tailwind CSS, Design Principals, User Experience (UX),  and fully Responsive Design i am really happy to show my work.",
-
-    linkProject: [
-      {
-        id: 0,
-        url: "https://rk-amdahl-portfolio.netlify.app/",
-        website: netlifyIcon,
-        altText_1: "link to website ",
-      },
-      {
-        id: 1,
-        github: "https://github.com/RohitAmdahl",
         githubLinkIcon: githubIcon,
         altText: "link to github ",
       },
