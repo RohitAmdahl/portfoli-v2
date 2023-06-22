@@ -28,6 +28,7 @@ const ContactForm = () => {
           id="name"
           type="name"
           name="name"
+          placeholder="Your name"
           required
           autoComplete="off"
         />
@@ -37,6 +38,7 @@ const ContactForm = () => {
           id="email"
           type="email"
           name="email"
+          placeholder="Your email"
           required
           autoComplete="off"
         />
@@ -46,6 +48,7 @@ const ContactForm = () => {
           className="border-primary m-1 mb-4 rounded-md border p-2 "
           id="message"
           name="message"
+          placeholder="Type your message"
           required
           autoComplete="off"
         />
