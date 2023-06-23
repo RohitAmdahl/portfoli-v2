@@ -17,7 +17,7 @@ import githubIcon from "../images/icons/github.png";
 const projectData = [
   {
     id: 0,
-    title: "PortFolio",
+    title: "Portfolio",
     image: project_5,
     tags: [
       {
