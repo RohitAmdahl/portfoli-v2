@@ -21,10 +21,10 @@ const About = () => {
               <h1 className=" font-serif text-4xl font-bold capitalize text-black lg:text-5xl ">
                 rohit kumar amdahl
               </h1>
-              <h2 className=" pt-2 font-serif text-2xl font-normal text-black">
+              <h2 className=" pt-2 font-serif text-2xl font-normal text-black ">
                 {english
-                  ? "Designer and frontend developer"
-                  : "Designer og front-end-utvikler"}
+                  ? "frontend developer and Designer"
+                  : "front-end-utvikler og Designer "}
               </h2>
               <p className="text-md py-4 font-sans font-normal">
                 {english
