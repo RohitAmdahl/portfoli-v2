@@ -23,8 +23,8 @@ const About = () => {
               </h1>
               <h2 className=" pt-2 font-serif text-2xl font-normal text-black ">
                 {english
-                  ? "frontend developer and Designer"
-                  : "front-end-utvikler og Designer "}
+                  ? "Frontend developer and Designer"
+                  : "Front-end-utvikler og Designer "}
               </h2>
               <p className="text-md py-4 font-sans font-normal">
                 {english
