@@ -97,9 +97,6 @@ const About = () => {
           </div>
         </div>
       </motion.div>
-      <div className="container mx-auto flex max-w-lg  justify-end">
-        <img src={Logo} alt={Logo} className="max-w-size pb-10" />
-      </div>
     </>
   );
 };
