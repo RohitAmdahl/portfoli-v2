@@ -49,10 +49,7 @@ const About = () => {
           type: "spring",
         }}
       >
-        <motion.div
-          animate={{ rotate: -10, color: "#94004a" }}
-          className=" flex items-center justify-center rounded-xl bg-gray-100 p-4 shadow-lg  "
-        >
+        <div className=" flex items-center justify-center rounded-xl bg-gray-100 p-4 shadow-lg  ">
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
               <FaLaptopCode className="my-2 h-10 w-10 p-1 text-emerald-600" />
@@ -66,7 +63,7 @@ const About = () => {
                 : "Jeg nyter å kunne kode fra bunnen av, og å bringe til live ideer på nettet."}
             </p>
           </div>
-        </motion.div>
+        </div>
         <div className=" flex items-center justify-center rounded-xl bg-gray-100  p-4 shadow-lg  ">
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
