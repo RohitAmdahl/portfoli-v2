@@ -13,9 +13,9 @@ const Header = () => {
 
   return (
     <div className="  mx-auto flex items-center justify-center py-4  font-poppins">
-      <header className="  container  m-3 mx-auto flex max-w-4xl items-center justify-between rounded-full bg-gray-100 p-5 capitalize shadow-lg">
+      <header className="  container  m-3 mx-auto flex max-w-4xl items-center justify-between rounded-lg bg-gray-200 p-5 capitalize">
         <Link to="/" className="logo text-accent text-2xl font-bold">
-          <img src={Logo} alt="logo" className=" w-24 " />
+          <img src={Logo} alt="logo" className="max-w-size" />
         </Link>
 
         {/* Desktop Nav */}
@@ -65,7 +65,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <div className=" flex items-center justify-center rounded-full border-2 border-green ">
+        <div className=" flex items-center justify-center rounded-full  ">
           <div className="z-30 flex cursor-pointer items-center justify-center gap-4 rounded-full  p-1">
             <Language />
           </div>

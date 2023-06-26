@@ -11,7 +11,6 @@ const ProjectCards = ({ project }) => {
 
   const navigate = useNavigate();
   function handleClick() {
-    // navigate("/project/" + id);
     navigate(`/project/${id}`);
   }
   return (
@@ -50,7 +49,7 @@ const ProjectCards = ({ project }) => {
         <div className=" container mx-auto max-w-md pb-4 md:max-w-md lg:max-w-lg">
           <div
             onClick={handleClick}
-            className=" flex  cursor-pointer items-center justify-center  gap-2 rounded-full bg-green px-2 py-2 shadow-md shadow-black duration-150 ease-in-out hover:bg-black hover:text-white "
+            className=" flex  cursor-pointer items-center justify-center  gap-2 rounded-lg bg-green px-2 py-2 shadow-md  duration-150 ease-in-out hover:bg-black hover:text-white "
           >
             <HiOutlineLink
               className=" animate-pulse text-white hover:animate-none "

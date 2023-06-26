@@ -21,9 +21,7 @@ const About = () => {
                 rohit kumar amdahl
               </h1>
               <h2 className=" pt-2 font-serif text-2xl font-normal text-black ">
-                {english
-                  ? "Frontend developer and Designer"
-                  : "Front-end-utvikler og Designer "}
+                {english ? "Frontend developer" : "Front-end-utvikler"}
               </h2>
               <p className="text-md py-4 font-sans font-normal">
                 {english
@@ -32,8 +30,8 @@ const About = () => {
               </p>
               <p className="md-w-full py-2 font-sans font-normal md:tracking-wide lg:w-full lg:tracking-wide">
                 {english
-                  ? "With a solid background in design, I bring a unique perspective to my development work. Having previously collaborated with architects,i gained valuable insights into the world of design and architecture. "
-                  : "Med en solid bakgrunn i design, tar jeg med meg et unikt perspektiv i verktøykassa som utvikler. Jeg har tidligere jobbet med arkitekter, hvor jeg har fått verdifulle inblikk i design-og arkitektur-universet. "}
+                  ? " I am a passionate frontend developer dedicated to creating immersive and user-friendly web experiences."
+                  : "Jeg er en lidenskapelig frontend-utvikler dedikert til å skape oppslukende og brukervennlige nettopplevelser."}
               </p>
             </div>
           </div>
@@ -49,7 +47,7 @@ const About = () => {
           type: "spring",
         }}
       >
-        <div className=" flex items-center justify-center rounded-xl bg-gray-100 p-4 shadow-lg  ">
+        <div className=" flex items-center justify-center rounded-xl bg-gray-200 p-4  ">
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
               <FaLaptopCode className="my-2 h-10 w-10 p-1 text-emerald-600" />
@@ -64,7 +62,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className=" flex items-center justify-center rounded-xl bg-gray-100  p-4 shadow-lg  ">
+        <div className=" flex items-center justify-center rounded-xl bg-gray-200 p-4">
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
               <CgDesignmodo className="my-2 h-10 w-10 p-1 text-emerald-600" />
@@ -77,7 +75,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className=" flex items-center justify-center rounded-xl bg-gray-100 p-4 shadow-lg ">
+        <div className=" flex items-center justify-center rounded-xl bg-gray-200 p-4">
           <div className=" font-normal ">
             <div className="flex items-center justify-center ">
               <BsBarChartSteps className="my-2 h-10 w-10 p-1 text-emerald-600 " />

@@ -58,7 +58,7 @@ const ContactForm = () => {
           errors={state.errors}
         />
         <button
-          className=" container mx-auto mt-4 max-w-sm cursor-pointer rounded-full bg-green px-2 py-2 text-lg text-white shadow-md shadow-black duration-150 ease-in-out hover:bg-black"
+          className=" container mx-auto mt-4 max-w-sm cursor-pointer rounded-lg bg-green px-2 py-2 text-lg text-white   duration-150 ease-in-out hover:bg-black"
           type="submit"
           disabled={state.submitting}
         >
