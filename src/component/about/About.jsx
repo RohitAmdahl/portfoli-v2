@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import Logo from "../../images/logo/logo.png";
 import { CgDesignmodo } from "react-icons/cg";
 import { BsBarChartSteps } from "react-icons/bs";
 import { FaLaptopCode } from "react-icons/fa";

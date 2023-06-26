@@ -22,7 +22,7 @@ const Language = () => {
         )}
       </div>
       <select
-        className=" flex items-center gap-2 border-none bg-transparent outline-1 "
+        className=" flex items-center justify-center gap-2 border-none bg-transparent outline-1 "
         onChange={changeLanguage}
       >
         <option value="en">EN</option>
