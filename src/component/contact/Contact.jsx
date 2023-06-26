@@ -2,6 +2,12 @@ import React, { useContext } from "react";
 import profilePic from "../../images/91061651.jpg";
 import ContactForm from "./ContactForm";
 import AppContext from "../../Context/LangContext";
+import {
+  FaFacebook,
+  FaLinkedinIn,
+  FaGithub,
+  FaInstagram,
+} from "react-icons/fa";
 const ContactMe = () => {
   const { english } = useContext(AppContext);
   return (
@@ -13,6 +19,31 @@ const ContactMe = () => {
         <p className="text-center font-sans text-2xl font-bold">
           +47 405 38 464
         </p>
+        <ul className=" mx-auto flex max-w-sm cursor-pointer justify-between gap-3 p-4 py-10 lg:py-5">
+          <li className="cursor-pointer  py-2 hover:animate-bounce ">
+            <a href="https://www.facebook.com/" className="text-blue-600">
+              <FaFacebook size={20} className="hover:text-blue-600" />
+            </a>
+          </li>
+          <li className="cursor-pointer py-2 hover:animate-bounce ">
+            <a href="https://www.linkedin.com/in/rohit-kumar-amdahl-308047140/">
+              <FaLinkedinIn size={20} className="text-blue-600" />
+            </a>
+          </li>
+          <li className="cursor-pointer py-2 hover:animate-bounce ">
+            <a href="https://github.com/RohitAmdahl" className="">
+              <FaGithub size={20} className=" hover:text-black" />
+            </a>
+          </li>
+          <li className="cursor-pointer py-2 hover:animate-bounce ">
+            <a href="https://www.instagram.com/" className="  ">
+              <FaInstagram
+                size={20}
+                className=" text-red-600 hover:text-red-800  "
+              />
+            </a>
+          </li>
+        </ul>
       </div>
       <div className="py-15 container m-4 mx-auto max-w-5xl items-center justify-center p-8 lg:flex  ">
         <div>
