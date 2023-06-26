@@ -20,26 +20,26 @@ const ContactMe = () => {
           +47 405 38 464
         </p>
         <ul className=" mx-auto flex max-w-sm cursor-pointer justify-between gap-3 p-4 py-10 lg:py-5">
-          <li className="cursor-pointer  py-2 hover:animate-bounce ">
-            <a href="https://www.facebook.com/" className="text-blue-600">
+          <li className="cursor-pointer  rounded-full bg-gray-200  p-3 py-2 shadow-lg   ">
+            <a href="https://www.facebook.com/">
               <FaFacebook size={20} className="hover:text-blue-600" />
             </a>
           </li>
-          <li className="cursor-pointer py-2 hover:animate-bounce ">
+          <li className=" cursor-pointer rounded-full bg-gray-200 p-3 py-2 shadow-lg ">
             <a href="https://www.linkedin.com/in/rohit-kumar-amdahl-308047140/">
-              <FaLinkedinIn size={20} className="text-blue-600" />
+              <FaLinkedinIn size={20} className="hover:text-blue-600" />
             </a>
           </li>
-          <li className="cursor-pointer py-2 hover:animate-bounce ">
-            <a href="https://github.com/RohitAmdahl" className="">
+          <li className="cursor-pointer rounded-full bg-gray-200  p-3 py-2 shadow-lg ">
+            <a href="https://github.com/RohitAmdahl">
               <FaGithub size={20} className=" hover:text-black" />
             </a>
           </li>
-          <li className="cursor-pointer py-2 hover:animate-bounce ">
-            <a href="https://www.instagram.com/" className="  ">
+          <li className="cursor-pointer rounded-full bg-gray-200  p-3 py-2 shadow-lg ">
+            <a href="https://www.instagram.com/">
               <FaInstagram
                 size={20}
-                className=" text-red-600 hover:text-red-800  "
+                className=" text-red-600 hover:text-red-800 "
               />
             </a>
           </li>
