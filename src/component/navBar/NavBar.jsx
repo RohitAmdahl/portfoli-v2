@@ -5,8 +5,7 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import Language from "./Language";
 import AppContext from "../../Context/LangContext";
-// import { RxMoon } from "react-icons/rx";
-// import { FiSun } from "react-icons/fi";
+
 const Header = () => {
   const { english } = useContext(AppContext);
   const [toggle, setToggle] = useState(false);
