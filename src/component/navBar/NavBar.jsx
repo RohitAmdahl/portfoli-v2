@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Logo from "../../images/logo/logo.png";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
@@ -15,7 +14,7 @@ const Header = () => {
     <div className="  mx-auto flex items-center justify-center py-4  font-poppins">
       <header className="  container  m-3 mx-auto flex max-w-4xl items-center justify-between rounded-lg bg-gray-200 p-5 capitalize">
         <Link to="/" className="logo text-accent text-2xl font-bold">
-          <img src={Logo} alt="logo" className="max-w-size" />
+          <img src={Logo} alt="logo" className=" w-28 lg:max-w-size" />
         </Link>
 
         {/* Desktop Nav */}
@@ -116,12 +115,12 @@ const Header = () => {
         {/* Toggle button */}
         <button
           onClick={handleToggle}
-          className="block rounded-full shadow-lg shadow-gray-400 md:hidden"
+          className="block rounded-xl bg-blue-200 px-3 py-1  md:hidden"
         >
           {!toggle ? (
-            <AiOutlineMenu size={30} className=" p-1" />
+            <div className=" text-lg">Menu</div>
           ) : (
-            <AiOutlineClose size={30} />
+            <div className=" text-lg">Close</div>
           )}
         </button>
       </header>
