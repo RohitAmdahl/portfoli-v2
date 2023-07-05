@@ -3,7 +3,6 @@ import TagsIcons from "./TagsIcons";
 import { useNavigate } from "react-router-dom";
 import { HiOutlineLink } from "react-icons/hi";
 import LinksIcons from "./LinksIcons";
-import { motion } from "framer-motion";
 import AppContext from "../../Context/LangContext";
 const ProjectCards = ({ project }) => {
   const { english } = useContext(AppContext);
@@ -17,35 +16,20 @@ const ProjectCards = ({ project }) => {
     <>
       <div className=" dark:bg-gray-800p-4 container mx-auto max-w-lg overflow-hidden rounded-3xl bg-gray-100 p-8 text-black duration-300 ease-in-out hover:shadow-2xl  hover:shadow-zinc-400 dark:border-gray-700 lg:px-10 lg:py-6">
         <div className="container mx-auto pt-3 text-black">
-          <motion.h5
-            className="mb-2 px-2 text-center font-serif text-2xl font-bold capitalize tracking-tight  text-black"
-            initial={{ y: "100vw" }}
-            animate={{ y: 0 }}
-            transition={{ delay: 2.0, type: "spring", stiffness: 45 }}
-          >
+          <h5 className="mb-2 px-2 text-center font-serif text-2xl font-bold capitalize tracking-tight  text-black">
             {title}
-          </motion.h5>
-          <motion.div
-            className=" flex items-center justify-center"
-            initial={{ y: "100vw" }}
-            animate={{ y: 0 }}
-            transition={{ delay: 1.1, type: "spring", stiffness: 45 }}
-          >
+          </h5>
+          <div className=" flex items-center justify-center">
             <TagsIcons key={tags.id} tags={tags} />
-          </motion.div>
+          </div>
         </div>
-        <motion.div
-          className="flex items-center justify-center"
-          initial={{ y: "100vw" }}
-          animate={{ y: 0 }}
-          transition={{ delay: 0.5, type: "spring", stiffness: 50 }}
-        >
+        <div className="flex items-center justify-center">
           <img
             className="w-full max-w-sm rounded-t-lg p-6 md:max-w-xl lg:max-w-2xl"
             src={image}
             alt={title}
           />
-        </motion.div>
+        </div>
         <div className=" container mx-auto max-w-md pb-4 md:max-w-md lg:max-w-lg">
           <div
             onClick={handleClick}

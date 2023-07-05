@@ -13,6 +13,7 @@ import Img12 from "../images/icons/tailwindcss.png";
 import Img13 from "../images/icons/devicon_materialui.png";
 import Img14 from "../images/icons/adobe-xd.png";
 import Img15 from "../images/icons/github.png";
+import Img16 from "../images/icons/firebase.png";
 
 const skillIcons = [
   {
@@ -62,33 +63,38 @@ const skillIcons = [
   },
   {
     id: 10,
+    name: "github",
+    image: Img15,
+  },
+  {
+    id: 11,
+    name: "Firebase",
+    image: Img16,
+  },
+  {
+    id: 12,
     name: "wordpress",
     image: Img10,
   },
   {
-    id: 11,
+    id: 13,
     name: "supabase",
     image: Img11,
   },
   {
-    id: 12,
+    id: 14,
     name: "tailwind css",
     image: Img12,
   },
   {
-    id: 13,
+    id: 15,
     name: "material ui",
     image: Img13,
   },
   {
-    id: 14,
+    id: 16,
     name: "adobe-xd",
     image: Img14,
-  },
-  {
-    id: 15,
-    name: "github",
-    image: Img15,
   },
 ];
 

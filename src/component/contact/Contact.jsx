@@ -16,7 +16,7 @@ const ContactMe = () => {
         <h1 className="py-3 pt-5 text-center text-5xl  ">
           {english ? "Let's Connect!" : "La oss snakke sammen!"}
         </h1>
-        <p className="text-center font-sans text-2xl font-bold">
+        <p className="py-4 text-center font-sans text-xl font-bold">
           +47 405 38 464
         </p>
         <ul className=" mx-auto flex max-w-sm cursor-pointer justify-between gap-3 p-4 py-10 lg:py-5">
