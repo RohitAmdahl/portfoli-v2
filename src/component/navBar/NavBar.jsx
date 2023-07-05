@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import Language from "./Language";
 import AppContext from "../../Context/LangContext";
-
+import { BiMenuAltRight } from "react-icons/bi";
+import { GrFormClose } from "react-icons/gr";
 const Header = () => {
   const { english } = useContext(AppContext);
   const [toggle, setToggle] = useState(false);
@@ -115,12 +116,18 @@ const Header = () => {
         {/* Toggle button */}
         <button
           onClick={handleToggle}
-          className="block rounded-xl bg-blue-200 px-3 py-1  md:hidden"
+          className="block rounded-xl bg-emerald-300 px-3 py-1  md:hidden"
         >
           {!toggle ? (
-            <div className=" text-lg">Menu</div>
+            <span className=" flex items-center justify-center text-lg">
+              {" "}
+              <BiMenuAltRight size={20} /> Menu
+            </span>
           ) : (
-            <div className=" text-lg">Close</div>
+            <span className=" flex items-center justify-center text-lg">
+              {" "}
+              <GrFormClose size={25} /> Close
+            </span>
           )}
         </button>
       </header>
