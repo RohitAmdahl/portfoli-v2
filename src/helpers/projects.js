@@ -36,13 +36,13 @@ const projectData = [
     linkProject: [
       {
         id: 0,
-        url: "https://master--rk-amdahl-portfolio.netlify.app/",
+        url: "https://resilient-sawine-3b694a.netlify.app",
         website: netlifyIcon,
         altText_1: "link to website ",
       },
       {
         id: 1,
-        github: "https://github.com/RohitAmdahl/portfoli-v2",
+        github: "https://github.com/RohitAmdahl/holidaze-main",
         githubLinkIcon: githubIcon,
         altText: "link to github ",
       },
