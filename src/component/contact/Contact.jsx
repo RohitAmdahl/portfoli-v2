@@ -1,4 +1,3 @@
-import React, { useContext } from "react";
 import profilePic from "../../images/91061651.jpg";
 import ContactForm from "./ContactForm";
 
