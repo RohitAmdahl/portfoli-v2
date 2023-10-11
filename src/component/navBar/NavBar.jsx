@@ -42,16 +42,6 @@ const Header = () => {
                 {english ? "skills" : "Ferdigheter"}
               </NavLink>
             </li>
-            <li className="px-4 hover:text-green hover:underline md:border-r-2 lg:border-r-2 ">
-              <NavLink
-                to="/projects"
-                className={({ isActive }) =>
-                  isActive ? "active" : "notActive"
-                }
-              >
-                {english ? "Project" : "Prosjekter"}
-              </NavLink>
-            </li>
 
             <li className="px-4 hover:text-green hover:underline ">
               <NavLink
@@ -93,14 +83,7 @@ const Header = () => {
                   {english ? "skills" : "Ferdigheter"}
                 </NavLink>
               </li>
-              <li
-                onClick={handleToggle}
-                className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
-              >
-                <NavLink to="/projects">
-                  {english ? "Project" : "Prosjekter"}
-                </NavLink>
-              </li>
+
               <li
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
