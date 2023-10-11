@@ -3,6 +3,7 @@ import project_2 from "../images/project/auction.png";
 import project_3 from "../images/project/rainyday.png";
 import project_4 from "../images/project/science.png";
 import project_5 from "../images/project/portfolio_website.png";
+import Project_6 from "../images/project/holidaze.png";
 import css from "../images/icons/css.png";
 import Javascript from "../images/icons/logos_javascript.png";
 import html5 from "../images/icons/html.png";
@@ -17,6 +18,39 @@ import githubIcon from "../images/icons/github.png";
 const projectData = [
   {
     id: 0,
+    title: "Holidaze",
+    image: Project_6,
+    tags: [
+      {
+        id: 0,
+        icon: react,
+      },
+      {
+        id: 1,
+        icon: tailwind,
+      },
+    ],
+    description:
+      "Holidaze is a modern front-end accommodation booking application, developed as a final exam project at Noroff School of Technology. The project's goal is to create venue booking platform concept of Airbnb, where users can browse various accommodation options to book their stay, or register as venue managers to create and manage their own rental properties. The project uses an API provided by Noroff.",
+
+    linkProject: [
+      {
+        id: 0,
+        url: "https://master--rk-amdahl-portfolio.netlify.app/",
+        website: netlifyIcon,
+        altText_1: "link to website ",
+      },
+      {
+        id: 1,
+        github: "https://github.com/RohitAmdahl/portfoli-v2",
+        githubLinkIcon: githubIcon,
+        altText: "link to github ",
+      },
+    ],
+  },
+
+  {
+    id: 1,
     title: "Portfolio",
     image: project_5,
     tags: [
