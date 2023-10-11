@@ -3,7 +3,7 @@ const About = () => {
   return (
     <>
       <SocialMedia />
-      <div className="container m-10 mx-auto flex  max-w-2xl  flex-col justify-center p-4 ">
+      <div className="container m-10 mx-auto flex max-w-2xl flex-col justify-center p-4 ">
         <h1 className=" font-serif text-2xl font-bold capitalize text-black lg:text-3xl ">
           rohit kumar amdahl
         </h1>
