@@ -1,16 +1,14 @@
 // import React, { useContext } from "react";
 import TagsIcons from "./TagsIcons";
-
 import LinksIcons from "./LinksIcons";
-import AppContext from "../../Context/LangContext";
+
 const ProjectCards = ({ project }) => {
-  // const { english } = useContext(AppContext);
   const { image, title, tags, linkProject, description } = project;
   console.log(description);
 
   return (
     <>
-      <div className="  container mx-auto max-w-4xl overflow-hidden rounded-3xl bg-gray-100 p-8 text-black duration-300 ease-in-out hover:shadow-2xl  hover:shadow-zinc-400 dark:border-gray-700 lg:px-10 lg:py-6">
+      <div className="  container mx-auto max-w-3xl overflow-hidden rounded-3xl bg-gray-100 p-8 text-black duration-300 ease-in-out hover:shadow-2xl  hover:shadow-zinc-400 dark:border-gray-700 lg:px-10 lg:py-6">
         <div className="container mx-auto pt-3 text-black">
           <h5 className="mb-2 px-2 text-center font-serif text-2xl font-bold capitalize tracking-tight  text-black">
             {title}

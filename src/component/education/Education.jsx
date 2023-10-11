@@ -1,18 +1,12 @@
-import React, { useContext } from "react";
 import { motion } from "framer-motion";
 import { TbSchool } from "react-icons/tb";
 import { FaSchool } from "react-icons/fa";
-import AppContext from "../../Context/LangContext";
-// import { BsPersonWorkspace } from "react-icons/bs";
 
 const Education = () => {
-  const { english } = useContext(AppContext);
   return (
     <>
       <div className="pb-2 font-serif text-5xl lg:pb-6">
-        <h2 className="mb-10 p-1 text-center font-thin">
-          {english ? "Education" : "Utdanning"}
-        </h2>
+        <h2 className="mb-10 p-1 text-center font-thin">Education</h2>
       </div>
       <div className="ml-12 px-5 py-5 md:m-0 lg:m-0 ">
         <div className="flex items-center justify-center ">

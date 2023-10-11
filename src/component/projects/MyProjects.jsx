@@ -13,7 +13,7 @@ const MyProjects = () => {
           type: "string",
           duration: 0.9,
         }}
-        className="container mx-auto grid max-w-lg grid-cols-1  gap-4 md:max-w-3xl md:grid-cols-1 md:gap-5 lg:max-w-5xl lg:grid-cols-2 lg:gap-8 "
+        className="container mx-auto grid max-w-xl grid-cols-1  gap-4 md:max-w-3xl md:grid-cols-1 md:gap-5 lg:max-w-4xl lg:grid-cols-1 lg:gap-8 "
       >
         {projectData.map((project) => {
           return (

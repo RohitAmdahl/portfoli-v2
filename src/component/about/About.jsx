@@ -1,8 +1,6 @@
 import React, { useContext } from "react";
 import SocialMedia from "../stickyIconBar/SocialMedia";
-import AppContext from "../../Context/LangContext";
 const About = () => {
-  const { english } = useContext(AppContext);
   return (
     <>
       <SocialMedia />
@@ -17,15 +15,18 @@ const About = () => {
                 rohit kumar amdahl
               </h1>
               <h2 className=" pt-2 font-serif text-xl font-normal text-black ">
-                {english ? "Frontend developer" : "Front-end-utvikler"}
+                Frontend developer
               </h2>
+              <p className="pt-2 font-serif">
+                Check out my projects, find more on my GitHub.
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div className="container m-5 mx-auto max-w-xl border-t-2 border-gray-600 p-5">
+      <div className="container m-5 mx-auto max-w-xl border-t-2 border-gray-300 p-5">
         <h2 className=" container mx-auto text-center font-serif text-2xl font-semibold">
-          Projects
+          My Projects
         </h2>
       </div>
     </>

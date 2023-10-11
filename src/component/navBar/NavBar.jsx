@@ -2,25 +2,22 @@ import React, { useContext, useState } from "react";
 import Logo from "../../images/logo/logo.png";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import Language from "./Language";
-import AppContext from "../../Context/LangContext";
 import { BiMenuAltRight } from "react-icons/bi";
 import { GrFormClose } from "react-icons/gr";
 const Header = () => {
-  const { english } = useContext(AppContext);
   const [toggle, setToggle] = useState(false);
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <div className="  mx-auto flex items-center justify-center py-4  font-poppins">
-      <header className="  container  m-3 mx-auto flex max-w-4xl items-center justify-between rounded-lg bg-gray-200 p-5 capitalize">
+    <div className=" mx-auto  flex items-center justify-around py-4  font-poppins">
+      <header className="  container  m-3 mx-auto flex max-w-4xl justify-around rounded-lg bg-gray-200 p-5 capitalize">
         <Link to="/" className="logo text-accent text-2xl font-bold">
-          <img src={Logo} alt="logo" className=" w-28 lg:max-w-size" />
+          <img src={Logo} alt="logo" className=" w-28 lg:max-w-size " />
         </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:block ">
-          <ul className="flex justify-between px-4 ">
+          <ul className="flex justify-around px-4 ">
             <li className="px-4  hover:underline md:border-r-2 lg:border-r-2 ">
               <NavLink
                 to="/"
@@ -28,7 +25,7 @@ const Header = () => {
                   isActive ? "active" : "notActive"
                 }
               >
-                {english ? "Home" : "Hjem"}
+                Home
               </NavLink>
             </li>
 
@@ -39,7 +36,7 @@ const Header = () => {
                   isActive ? "active" : "notActive"
                 }
               >
-                {english ? "skills" : "Ferdigheter"}
+                Skills
               </NavLink>
             </li>
 
@@ -50,16 +47,12 @@ const Header = () => {
                   isActive ? "active" : "notActive"
                 }
               >
-                {english ? "Contact" : "Kontakt"}
+                Contact
               </NavLink>
             </li>
           </ul>
         </nav>
-        <div className=" flex items-center justify-center rounded-full  ">
-          <div className="z-30 flex cursor-pointer items-center justify-center gap-4 rounded-full  p-1">
-            <Language />
-          </div>
-        </div>
+        {/* <div className=" flex items-center justify-center rounded-full  "></div> */}
         {/* Mobile Nav */}
         <div className="flex items-center justify-center ">
           <nav
@@ -72,25 +65,21 @@ const Header = () => {
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100  ease-out hover:text-green hover:underline"
               >
-                <NavLink to="/"> {english ? "Home" : "Hjem"}</NavLink>
+                <NavLink to="/"> Home</NavLink>
               </li>
 
               <li
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
               >
-                <NavLink to="/skills">
-                  {english ? "skills" : "Ferdigheter"}
-                </NavLink>
+                <NavLink to="/skills">Skills</NavLink>
               </li>
 
               <li
                 onClick={handleToggle}
                 className="flex items-center justify-center py-4 duration-100 ease-out hover:text-green hover:underline "
               >
-                <NavLink to="/contact">
-                  {english ? "Contact" : "Kontakt"}
-                </NavLink>
+                <NavLink to="/contact">Contact</NavLink>
               </li>
             </ul>
           </nav>
