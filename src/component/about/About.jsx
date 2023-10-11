@@ -12,7 +12,13 @@ const About = () => {
           exceptional web experiences.
         </h2>
         <p className="pt-2 font-serif">
-          Check out my projects, find more on my GitHub.
+          Check out my projects, find more on my{" "}
+          <a
+            className=" text-lg font-semibold text-green underline"
+            href="https://github.com/RohitAmdahl?tab=repositories"
+          >
+            GitHub.
+          </a>
         </p>
       </div>
     </>
