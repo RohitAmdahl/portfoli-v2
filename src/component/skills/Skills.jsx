@@ -1,4 +1,3 @@
-import React, { useContext } from "react";
 import skillIcons from "../../helpers/icons";
 import SkillsCards from "./SkillsCards";
 import { motion } from "framer-motion";
