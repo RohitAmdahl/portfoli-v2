@@ -36,9 +36,6 @@ const projectData = [
     description:
       "Introducing my portfolio! I'm Rohit, a front-end developer skilled in Create React App and Tailwind CSS. With a beautiful and user-friendly design, I showcase simplicity and ease of understanding. Explore my work and let's connect for exciting collaborations!",
 
-    learning:
-      "Practical application My portfolio Front-End Development, Tailwind CSS, Design Principals, User Experience (UX),  and fully Responsive Design i am really happy to show my work.",
-
     linkProject: [
       {
         id: 0,
@@ -74,10 +71,7 @@ const projectData = [
       },
     ],
     description:
-      "After completing a React course, I took on an assignment to develop an e-commerce website with key features like a shopping cart, detailed product pages, and responsive design. Given the freedom to choose a framework, I opted for Tailwind CSS. Leveraging its utility classes and component library, I quickly built a captivating and interactive platform that adapts seamlessly to different devices. Using React components, I ensured smooth navigation and efficient cart functionality. This project showcased my ability to create modern, user-centric web applications, combining React's power with the convenience of Tailwind CSS.",
-
-    learning:
-      "Throughout the course, I discovered a genuine fondness for React. Its ease of use and intuitive nature truly resonated with me. I found joy in creating React components and working with JSX files, appreciating the power and simplicity it brings to building dynamic, single-page user interfaces. The reusability of components and the concise nature of the code impressed me greatly. React is undoubtedly a remarkable JavaScript library, offering tremendous capabilities and empowering developers to create efficient and elegant applications.",
+      "Upon finishing a React course, I tackled an e-commerce project. I chose Tailwind CSS for its flexibility. With its utility classes and components, I swiftly created a captivating, responsive platform. I focused on key features like a shopping cart and detailed product pages, ensuring smooth navigation and efficient cart functionality. This project highlighted my skills in building modern, user-centric web applications by combining React's power with Tailwind CSS.",
 
     linkProject: [
       {
@@ -122,10 +116,7 @@ const projectData = [
       },
     ],
     description:
-      "Introducing Auction, the ultimate online auction website with a user-friendly interface. Sign up and receive 1000 free credits to start bidding on a wide range of listings. Non-registered users can browse listings, but only registered users can place bids. Join now for an enjoyable and hassle-free auction experience.",
-
-    learning:
-      "Throughout the development of the auction website, I successfully implemented crucial features, enabling users to seamlessly log in, log out, and sign up. Registered users gained the ability to place bids on items, creating an immersive and interactive bidding experience. To further empower users, I incorporated the functionality to create and manage their own listings, allowing them to showcase their products effectively. Additionally, the project involved implementing API CRUD operations, enabling smooth and efficient handling of data, such as creating, reading, updating, and deleting listings. This comprehensive project showcased my skills in building a dynamic and responsive website, while also highlighting my ability to work with APIs and perform essential CRUD operations.",
+      "Implemented a fully responsive website using Noroff Auction API documentation.Developed functionalities including user login, sign up, and CRUD operations Registered users have the ability to bid on items, while non-registered users are restricted from bidding. Implemented search functionality by title, enabling users to find specific items, for example",
 
     linkProject: [
       {
@@ -166,10 +157,7 @@ const projectData = [
       },
     ],
     description:
-      "Embarking on a captivating journey of website design, I eagerly embraced the task assigned to us. Utilizing the powerful design tool, Figma, I meticulously crafted an intricate style guide that served as the foundation for my creative process. With unwavering determination, I delved into the realm of web development, bringing my vision to life through the seamless integration of HTML, CSS, and JavaScript. As a first-time web designer, I take immense pride in my accomplishments, cherishing this milestone in both design and coding. The website stands as a testament to my dedication and serves as a tangible representation of my growth in this exhilarating field.",
-
-    learning:
-      "This project has been an invaluable learning experience for me, allowing me to acquire a wealth of knowledge through hands-on practice. As I ventured into the realms of HTML, CSS, and JavaScript, I delved into the intricacies of these languages, gaining a deeper understanding of their functionalities. Exploring the implementation of CSS styles, including fetching styles from JavaScript APIs, provided me with valuable insights into the versatility and power of CSS. Although the visual appeal of the project may not be as captivating as desired, especially due to my nascent CSS skills, I take immense pride in my first attempt. This project has been a catalyst for growth, granting me invaluable lessons and reinforcing my passion for web development.",
+      "I gathered design inspiration from pictures, created an inspiration board, and developed personas. I installed Hotjar for insights, designed layouts and wireframes, progressing from low to high fidelity and prototypes. I implemented the designs into WordPress, set up products, made API calls, and conducted usability tests for a better user experience. Ensured responsiveness for the website.",
 
     linkProject: [
       {
